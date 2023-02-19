@@ -1,0 +1,2716 @@
+Browser started
+Get connection for route {s}->https://reqres.in:443
+Connecting to reqres.in:443
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: GET /api/users?page=1 HTTP/1.1
+ >> "GET /api/users?page=1 HTTP/1.1[\r][\n]"
+ >> "Accept: */*[\r][\n]"
+ >> "Host: reqres.in[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> GET /api/users?page=1 HTTP/1.1
+>> Accept: */*
+>> Host: reqres.in
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+>> Accept-Encoding: gzip,deflate
+ << "HTTP/1.1 200 OK[\r][\n]"
+ << "Date: Thu, 16 Feb 2023 15:19:17 GMT[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Transfer-Encoding: chunked[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Access-Control-Allow-Origin: *[\r][\n]"
+ << "Etag: W/"3e4-2RLXvr5wTg9YQ6aH95CkYoFNuO8"[\r][\n]"
+ << "Via: 1.1 vegur[\r][\n]"
+ << "Cache-Control: max-age=14400[\r][\n]"
+ << "CF-Cache-Status: HIT[\r][\n]"
+ << "Age: 1496[\r][\n]"
+ << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=FMbYHrSRl9UuDRg0j4EylcaWE0HhIo%2BB22ZV3MN7wgElkjgK3Bc3FvYWrvkXy8G5Kq760PHSjMSbc5y6A8RdVQJzJzIYsjbRdqCLQ7SUV6AAASfM5AO%2BeK3iWA%3D%3D"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+ << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]"
+ << "Vary: Accept-Encoding[\r][\n]"
+ << "Server: cloudflare[\r][\n]"
+ << "CF-RAY: 79a742c06aee3c0d-BLR[\r][\n]"
+ << "Content-Encoding: gzip[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 200 OK
+<< HTTP/1.1 200 OK
+<< Date: Thu, 16 Feb 2023 15:19:17 GMT
+<< Content-Type: application/json; charset=utf-8
+<< Transfer-Encoding: chunked
+<< Connection: keep-alive
+<< X-Powered-By: Express
+<< Access-Control-Allow-Origin: *
+<< Etag: W/"3e4-2RLXvr5wTg9YQ6aH95CkYoFNuO8"
+<< Via: 1.1 vegur
+<< Cache-Control: max-age=14400
+<< CF-Cache-Status: HIT
+<< Age: 1496
+<< Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=FMbYHrSRl9UuDRg0j4EylcaWE0HhIo%2BB22ZV3MN7wgElkjgK3Bc3FvYWrvkXy8G5Kq760PHSjMSbc5y6A8RdVQJzJzIYsjbRdqCLQ7SUV6AAASfM5AO%2BeK3iWA%3D%3D"}],"group":"cf-nel","max_age":604800}
+<< NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+<< Vary: Accept-Encoding
+<< Server: cloudflare
+<< CF-RAY: 79a742c06aee3c0d-BLR
+<< Content-Encoding: gzip
+Connection can be kept alive indefinitely
+Parsing response as: application/json; charset=utf-8
+ << "170[\r][\n]"
+ << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0x8d][0xd1]MK[0xc4]0[0x10][0x6][0xe0][0xbf][0x12][0xc7]kl[0xd9][0xf][0xf7][0x90][0x93]([0xa2][0x8]^[0x16][0xc1][0x83][0x88][0x8c][0xed]l[0x1b]m[0x9a]8[0x99][0xed]*[0xcb][0xfe]w[0xd9][0xae]X)][0xe9]-[0x1f][0xef][0x9b]y [[0x8]X[0x10][0x98][0x89][0x86]@[0xfc]r[0xd8],4[0x88][0x17][0xac][0xc0]L[0xa6]?[0xcb][0xf6]&[0x82][0x99]j[0xc8]Q[0x10][0xcc][0xd3][0x16]l[0xde][0xf6][0xc8][0xa1][0xad][0xc0]@A[0x9e][0xb]J^[0xab][0xb5][0x94][0x17]L[0x1f]L1[0xb1]5hXY[0x8e][0xf2]R[0xa3]#0p[0xd3][0xa6]@C[0x85][0xdd][0xe1][0xe5][0xbe][0x3][0x1a][0xb0]AA[0x6][0x3][0xa5]H[0x88]&M[0x9f]I[0xad]+[0xd2][0x15]f[0x14][0xd3][0xc9][0x99]uXP[0xf2][0x16][\n]"
+ << "[0xd8][0xe9][0x3]c[0xda]1[0xde][0xb0]&I6[0x84][\r][0xf1]q[0xc6][0xdd]>[0xd5]S<[0xb6][0x9d][0xb1][0x8c][0xe9][0x0]c[0xd6]1[0xc8]9L6[0xbe].[0x8e][0x1b][0xae][0x9d][0xc3]>[0xc1][0xd7][0xc5]X[0xc0]l[0x0]0[0xff][0x3]h()}%[0xff][0xcc]o[0xfa][0xff]p[0xeb]+[0x19];~>0[0xfe][0xbc][0x1b][0x9f][0x95][0xc8][0x15][0xc5][0xc4]yf[0x1b][0x8f]#[0xae][0xe][0xb9][0x1e][0xe4][0xbe]m[0x8d][0xa5][0x9c][0xf]P[0x16][0x1d]E[0x18]3[0xfa]J[0x18][0x9d][0xff][0x7][0xf2][0xd0][0xa6]z[0x8e][0xe5][0xbe]3[0x96][0xb1][0xf8][0xcb]x[0xd6][0x10][0xd7]!x[0x16]0[Xs5X>[0xfd][0xc9][0x9c][0x95][0x84][0xb9]m[0xff]^[0xe8]S[0xf6][0x1c][0xaf][0xde][0x89][0x82]Z[0xd2][0xc7][0x92][0xa2]Z1[0x91]V[0x99][0xaf][0x85][0xed][0xeb]Z[0xac][0xaf][0xa3][0x12][0xbf]A[0xce][0xa3][0x8a][0xc4][\r][0xb1][0xca]|[0x94][0xa8][0x90]Ia[0x8]L[0x99]E[0xa1][0xfc][0x4]v[0xbb]o[0xcc]?[0x16][0xce][0xe4][0x3][0x0][0x0]"
+ << "[\r][\n]"
+ << "0[\r][\n]"
+ << "[\r][\n]"
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@cda6019
+Connection can be kept alive indefinitely
+Getting response Body
+Getting data object
+Get connection for route {s}->https://reqres.in:443
+Connecting to reqres.in:443
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: GET /api/users/1 HTTP/1.1
+ >> "GET /api/users/1 HTTP/1.1[\r][\n]"
+ >> "Accept: */*[\r][\n]"
+ >> "Host: reqres.in[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> GET /api/users/1 HTTP/1.1
+>> Accept: */*
+>> Host: reqres.in
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+>> Accept-Encoding: gzip,deflate
+ << "HTTP/1.1 200 OK[\r][\n]"
+ << "Date: Thu, 16 Feb 2023 15:19:18 GMT[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Transfer-Encoding: chunked[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Access-Control-Allow-Origin: *[\r][\n]"
+ << "Etag: W/"118-P3iKcVpIgCj9HqYeOOrGLX8qJVc"[\r][\n]"
+ << "Via: 1.1 vegur[\r][\n]"
+ << "Cache-Control: max-age=14400[\r][\n]"
+ << "CF-Cache-Status: HIT[\r][\n]"
+ << "Age: 1495[\r][\n]"
+ << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=I0rwPEceSy6va463cL5C9M4XSSmiOepViWFsZkEFKHDTNlQ1Tzc%2FFpCXt3QgwLbqw35E9RceaqIEid%2FAxI8uou0fxCdAflGmdNhaTC7UtuyOoxsVSNaSGwqK%2Bw%3D%3D"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+ << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]"
+ << "Vary: Accept-Encoding[\r][\n]"
+ << "Server: cloudflare[\r][\n]"
+ << "CF-RAY: 79a742c4ab8c3c01-BLR[\r][\n]"
+ << "Content-Encoding: gzip[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 200 OK
+<< HTTP/1.1 200 OK
+<< Date: Thu, 16 Feb 2023 15:19:18 GMT
+<< Content-Type: application/json; charset=utf-8
+<< Transfer-Encoding: chunked
+<< Connection: keep-alive
+<< X-Powered-By: Express
+<< Access-Control-Allow-Origin: *
+<< Etag: W/"118-P3iKcVpIgCj9HqYeOOrGLX8qJVc"
+<< Via: 1.1 vegur
+<< Cache-Control: max-age=14400
+<< CF-Cache-Status: HIT
+<< Age: 1495
+<< Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=I0rwPEceSy6va463cL5C9M4XSSmiOepViWFsZkEFKHDTNlQ1Tzc%2FFpCXt3QgwLbqw35E9RceaqIEid%2FAxI8uou0fxCdAflGmdNhaTC7UtuyOoxsVSNaSGwqK%2Bw%3D%3D"}],"group":"cf-nel","max_age":604800}
+<< NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+<< Vary: Accept-Encoding
+<< Server: cloudflare
+<< CF-RAY: 79a742c4ab8c3c01-BLR
+<< Content-Encoding: gzip
+Connection can be kept alive indefinitely
+Parsing response as: application/json; charset=utf-8
+ << "d1[\r][\n]"
+ << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3]m[0x8e][0xc1]N[0xc3]0[0x10][0x5][0xc5]<[0xae]n[0xac]^}B\[0xb8]W[0xdc][0xab]m[0xbc]q[0xc]I[0xec][0xee]nJ[0xa5]*[0xff]^[0x15]![0xb8]p}[0x9a][0x19][0xbd][0x1b][0x12][0x19]![0xde]P[0x12][0xe2][0xde][0x83]g*[0x13]"2W[0xc9][0xdc][0x9d][0xa6][0xd5][0xc6][0x17][0xe1][0xb3][0xb0]ve[0x81][0xc7]PD[0xed][0xb8][0xd0][0xcc][0x88]x[0xfb][0xa6][0xe0]1[0xd1][0xdf][0xf8][0xfa]p[0xe0]A[0x17]2[0x12]D[0x8c]fMc[0x8][0xbf][0x99]P[0xe6][0x1c][0x6][0xea]Y[0xc3]~Wf[0xca][0xdc]}[0xb4][0x8c][0xcd]C[0xd7][0xd6][0xaa][0xd8][0xe3][0xd0]*[0xd3][0xbf][0xee][0xf3][0xf][0xb3][0x1b][0x99]RY2<[0x8c][0xaf][0x86][0x88][0xf7][0xea]>[0x99][0x9b];[0xf0][0xf9][0xc0][0xea][0x6]a[0xf6][0xae][0xaf][0x8b]I9[0xad]V[0xea][0xa2][0xce][0xea][0x17]IR[0xa7],[0x17][0x16][0xd7]W5u$[0xec][0xa8]5[0xe1][0xbe][0x90]qz[0xc2][0xb6][0xdd][0x1][0x94]J[0xbd][0xbc][0x18][0x1][0x0][0x0]"
+ << "[\r][\n]"
+ << "0[\r][\n]"
+ << "[\r][\n]"
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@285583d4
+Connection can be kept alive indefinitely
+Get connection for route {s}->https://reqres.in:443
+Connecting to reqres.in:443
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: GET /api/users/1 HTTP/1.1
+ >> "GET /api/users/1 HTTP/1.1[\r][\n]"
+ >> "Accept: */*[\r][\n]"
+ >> "Host: reqres.in[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> GET /api/users/1 HTTP/1.1
+>> Accept: */*
+>> Host: reqres.in
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+>> Accept-Encoding: gzip,deflate
+ << "HTTP/1.1 200 OK[\r][\n]"
+ << "Date: Thu, 16 Feb 2023 15:19:18 GMT[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Transfer-Encoding: chunked[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Access-Control-Allow-Origin: *[\r][\n]"
+ << "Etag: W/"118-P3iKcVpIgCj9HqYeOOrGLX8qJVc"[\r][\n]"
+ << "Via: 1.1 vegur[\r][\n]"
+ << "Cache-Control: max-age=14400[\r][\n]"
+ << "CF-Cache-Status: HIT[\r][\n]"
+ << "Age: 1495[\r][\n]"
+ << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=r5wdLyZyq3P4CVm0OQrMV26GaKuNg3uAVdxqXNhFsUo0iTj851BfGc21gc0DTVaDPXVN5wmzVmUZOKv47lxux3no0yap8%2FZDf%2B9zslbNYfPivOfoL81swjJ5tw%3D%3D"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+ << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]"
+ << "Vary: Accept-Encoding[\r][\n]"
+ << "Server: cloudflare[\r][\n]"
+ << "CF-RAY: 79a742c57fc13c00-BLR[\r][\n]"
+ << "Content-Encoding: gzip[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 200 OK
+<< HTTP/1.1 200 OK
+<< Date: Thu, 16 Feb 2023 15:19:18 GMT
+<< Content-Type: application/json; charset=utf-8
+<< Transfer-Encoding: chunked
+<< Connection: keep-alive
+<< X-Powered-By: Express
+<< Access-Control-Allow-Origin: *
+<< Etag: W/"118-P3iKcVpIgCj9HqYeOOrGLX8qJVc"
+<< Via: 1.1 vegur
+<< Cache-Control: max-age=14400
+<< CF-Cache-Status: HIT
+<< Age: 1495
+<< Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=r5wdLyZyq3P4CVm0OQrMV26GaKuNg3uAVdxqXNhFsUo0iTj851BfGc21gc0DTVaDPXVN5wmzVmUZOKv47lxux3no0yap8%2FZDf%2B9zslbNYfPivOfoL81swjJ5tw%3D%3D"}],"group":"cf-nel","max_age":604800}
+<< NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+<< Vary: Accept-Encoding
+<< Server: cloudflare
+<< CF-RAY: 79a742c57fc13c00-BLR
+<< Content-Encoding: gzip
+Connection can be kept alive indefinitely
+Parsing response as: application/json; charset=utf-8
+ << "d1[\r][\n]"
+ << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3]m[0x8e][0xc1]N[0xc3]0[0x10][0x5][0xc5]<[0xae]n[0xac]^}B\[0xb8]W[0xdc][0xab]m[0xbc]q[0xc]I[0xec][0xee]nJ[0xa5]*[0xff]^[0x15]![0xb8]p}[0x9a][0x19][0xbd][0x1b][0x12][0x19]![0xde]P[0x12][0xe2][0xde][0x83]g*[0x13]"2W[0xc9][0xdc][0x9d][0xa6][0xd5][0xc6][0x17][0xe1][0xb3][0xb0]ve[0x81][0xc7]PD[0xed][0xb8][0xd0][0xcc][0x88]x[0xfb][0xa6][0xe0]1[0xd1][0xdf][0xf8][0xfa]p[0xe0]A[0x17]2[0x12]D[0x8c]fMc[0x8][0xbf][0x99]P[0xe6][0x1c][0x6][0xea]Y[0xc3]~Wf[0xca][0xdc]}[0xb4][0x8c][0xcd]C[0xd7][0xd6][0xaa][0xd8][0xe3][0xd0]*[0xd3][0xbf][0xee][0xf3][0xf][0xb3][0x1b][0x99]RY2<[0x8c][0xaf][0x86][0x88][0xf7][0xea]>[0x99][0x9b];[0xf0][0xf9][0xc0][0xea][0x6]a[0xf6][0xae][0xaf][0x8b]I9[0xad]V[0xea][0xa2][0xce][0xea][0x17]IR[0xa7],[0x17][0x16][0xd7]W5u$[0xec][0xa8]5[0xe1][0xbe][0x90]qz[0xc2][0xb6][0xdd][0x1][0x94]J[0xbd][0xbc][0x18][0x1][0x0][0x0]"
+ << "[\r][\n]"
+ << "0[\r][\n]"
+ << "[\r][\n]"
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@17207f5b
+Connection can be kept alive indefinitely
+Get connection for route {s}->https://reqres.in:443
+Connecting to reqres.in:443
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: GET /api/users/1 HTTP/1.1
+ >> "GET /api/users/1 HTTP/1.1[\r][\n]"
+ >> "Accept: */*[\r][\n]"
+ >> "Host: reqres.in[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> GET /api/users/1 HTTP/1.1
+>> Accept: */*
+>> Host: reqres.in
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+>> Accept-Encoding: gzip,deflate
+ << "HTTP/1.1 200 OK[\r][\n]"
+ << "Date: Thu, 16 Feb 2023 15:19:18 GMT[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Transfer-Encoding: chunked[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Access-Control-Allow-Origin: *[\r][\n]"
+ << "Etag: W/"118-P3iKcVpIgCj9HqYeOOrGLX8qJVc"[\r][\n]"
+ << "Via: 1.1 vegur[\r][\n]"
+ << "Cache-Control: max-age=14400[\r][\n]"
+ << "CF-Cache-Status: HIT[\r][\n]"
+ << "Age: 1495[\r][\n]"
+ << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ky4bN6YLs0wMbaVHUWzy8uK5Ke5JEK7LxJBZa%2B3%2BpzwPxfi0QhlT%2BJCH45qulTdh19AgaAoZ%2FlXYkOUEvUlU%2B8O1FDY4JC94Y3yTKO2DbfDzINpVbO7gWOJCSQ%3D%3D"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+ << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]"
+ << "Vary: Accept-Encoding[\r][\n]"
+ << "Server: cloudflare[\r][\n]"
+ << "CF-RAY: 79a742c608903c12-BLR[\r][\n]"
+ << "Content-Encoding: gzip[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 200 OK
+<< HTTP/1.1 200 OK
+<< Date: Thu, 16 Feb 2023 15:19:18 GMT
+<< Content-Type: application/json; charset=utf-8
+<< Transfer-Encoding: chunked
+<< Connection: keep-alive
+<< X-Powered-By: Express
+<< Access-Control-Allow-Origin: *
+<< Etag: W/"118-P3iKcVpIgCj9HqYeOOrGLX8qJVc"
+<< Via: 1.1 vegur
+<< Cache-Control: max-age=14400
+<< CF-Cache-Status: HIT
+<< Age: 1495
+<< Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ky4bN6YLs0wMbaVHUWzy8uK5Ke5JEK7LxJBZa%2B3%2BpzwPxfi0QhlT%2BJCH45qulTdh19AgaAoZ%2FlXYkOUEvUlU%2B8O1FDY4JC94Y3yTKO2DbfDzINpVbO7gWOJCSQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+<< NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+<< Vary: Accept-Encoding
+<< Server: cloudflare
+<< CF-RAY: 79a742c608903c12-BLR
+<< Content-Encoding: gzip
+Connection can be kept alive indefinitely
+Parsing response as: application/json; charset=utf-8
+ << "d1[\r][\n]"
+ << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3]m[0x8e][0xc1]N[0xc3]0[0x10][0x5][0xc5]<[0xae]n[0xac]^}B\[0xb8]W[0xdc][0xab]m[0xbc]q[0xc]I[0xec][0xee]nJ[0xa5]*[0xff]^[0x15]![0xb8]p}[0x9a][0x19][0xbd][0x1b][0x12][0x19]![0xde]P[0x12][0xe2][0xde][0x83]g*[0x13]"2W[0xc9][0xdc][0x9d][0xa6][0xd5][0xc6][0x17][0xe1][0xb3][0xb0]ve[0x81][0xc7]PD[0xed][0xb8][0xd0][0xcc][0x88]x[0xfb][0xa6][0xe0]1[0xd1][0xdf][0xf8][0xfa]p[0xe0]A[0x17]2[0x12]D[0x8c]fMc[0x8][0xbf][0x99]P[0xe6][0x1c][0x6][0xea]Y[0xc3]~Wf[0xca][0xdc]}[0xb4][0x8c][0xcd]C[0xd7][0xd6][0xaa][0xd8][0xe3][0xd0]*[0xd3][0xbf][0xee][0xf3][0xf][0xb3][0x1b][0x99]RY2<[0x8c][0xaf][0x86][0x88][0xf7][0xea]>[0x99][0x9b];[0xf0][0xf9][0xc0][0xea][0x6]a[0xf6][0xae][0xaf][0x8b]I9[0xad]V[0xea][0xa2][0xce][0xea][0x17]IR[0xa7],[0x17][0x16][0xd7]W5u$[0xec][0xa8]5[0xe1][0xbe][0x90]qz[0xc2][0xb6][0xdd][0x1][0x94]J[0xbd][0xbc][0x18][0x1][0x0][0x0]"
+ << "[\r][\n]"
+ << "0[\r][\n]"
+ << "[\r][\n]"
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@40ed1802
+Connection can be kept alive indefinitely
+Get connection for route {s}->https://reqres.in:443
+Connecting to reqres.in:443
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: GET /api/users/2 HTTP/1.1
+ >> "GET /api/users/2 HTTP/1.1[\r][\n]"
+ >> "Accept: */*[\r][\n]"
+ >> "Host: reqres.in[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> GET /api/users/2 HTTP/1.1
+>> Accept: */*
+>> Host: reqres.in
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+>> Accept-Encoding: gzip,deflate
+ << "HTTP/1.1 200 OK[\r][\n]"
+ << "Date: Thu, 16 Feb 2023 15:19:18 GMT[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Transfer-Encoding: chunked[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Access-Control-Allow-Origin: *[\r][\n]"
+ << "Etag: W/"118-pbdwwFo9SKNhD3Lx5iHJyngpq00"[\r][\n]"
+ << "Via: 1.1 vegur[\r][\n]"
+ << "Cache-Control: max-age=14400[\r][\n]"
+ << "CF-Cache-Status: HIT[\r][\n]"
+ << "Age: 2334[\r][\n]"
+ << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=D8xw1E%2BEXOYUm60%2F65kf5wF7D5aOu32xHEg129W180vLjRn%2By3yPrGiL2ZfavX7JAO9RwfBKK%2FPc7VP%2FXO3sZksQaURAKYH3yC1f6W7N0Kl0PlyaFyu4Lw0Tqw%3D%3D"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+ << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]"
+ << "Vary: Accept-Encoding[\r][\n]"
+ << "Server: cloudflare[\r][\n]"
+ << "CF-RAY: 79a742c6bee03c0c-BLR[\r][\n]"
+ << "Content-Encoding: gzip[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 200 OK
+<< HTTP/1.1 200 OK
+<< Date: Thu, 16 Feb 2023 15:19:18 GMT
+<< Content-Type: application/json; charset=utf-8
+<< Transfer-Encoding: chunked
+<< Connection: keep-alive
+<< X-Powered-By: Express
+<< Access-Control-Allow-Origin: *
+<< Etag: W/"118-pbdwwFo9SKNhD3Lx5iHJyngpq00"
+<< Via: 1.1 vegur
+<< Cache-Control: max-age=14400
+<< CF-Cache-Status: HIT
+<< Age: 2334
+<< Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=D8xw1E%2BEXOYUm60%2F65kf5wF7D5aOu32xHEg129W180vLjRn%2By3yPrGiL2ZfavX7JAO9RwfBKK%2FPc7VP%2FXO3sZksQaURAKYH3yC1f6W7N0Kl0PlyaFyu4Lw0Tqw%3D%3D"}],"group":"cf-nel","max_age":604800}
+<< NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+<< Vary: Accept-Encoding
+<< Server: cloudflare
+<< CF-RAY: 79a742c6bee03c0c-BLR
+<< Content-Encoding: gzip
+Connection can be kept alive indefinitely
+Parsing response as: application/json; charset=utf-8
+ << "d0[\r][\n]"
+ << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3]m[0x8e][0xb1]j[0xc3]0[0x14]EE[0xbd]Y[0x15][0x1b]2j[0xea][0xdc]1[0x14]:[0x96]W[0xfb][0xda]QjK[0xca][0xd3][0xb3][0x13][0x8][0xfe][0xf7][0x92]R[0xda][0xa5][0xeb][0xe5][0x9c][0xc3][0xbd][0xa3][0x17][0x13][0x84];b[0x8f]p[0xf0][0xe0],qB[0xc0]Y[0x12][0xad][0xb9]RV[0xea][0xb3][0xf2][0xa2][0xac]ML[0xf0][0x18][0xa2]V{O2[0x13][0x1]/[0xf][\n]"
+ << "[0x1e][0x93][0xfc]mo[0xdf][0xe]<d[0x15][0x13]E[0xc0][0xc9][0xac][0xd4][0xd0][0xb6][0xbf][0x99]6[0xce]c;H[0xc7][0xda][0x1e][0xf6]q[0x96][0x91][0xcd][0xb9][0x8c][0xd8]<[0xea]RJV{[0x1c]Zt[0xfa][0xd7][0xdd][0xfd]0[0xfb][0x13][0xa5][0x8f]i[0x84][0x87][0xf1]f[0x8]x[0xcd][0xee][0x93],[0xee][0xc8][0xcb][0x91][0xd5][\r]Jz[0xd7][0xe5]d[0x1a]?[0x16][0x8b]9Ug[0xf9]*[0xda]WW[0xa9]+[0xd5]u[0xb9]Zu[0xa2]tR[0x8a][0xb2][0x8b]b[0xec][0x9f][0xb0]m_[0xb][0x8c][0xc5][0xb5][0x18][0x1][0x0][0x0]"
+ << "[\r][\n]"
+ << "0[\r][\n]"
+ << "[\r][\n]"
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@52f6900a
+Connection can be kept alive indefinitely
+Get connection for route {s}->https://reqres.in:443
+Connecting to reqres.in:443
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: GET /api/users/2 HTTP/1.1
+ >> "GET /api/users/2 HTTP/1.1[\r][\n]"
+ >> "Accept: */*[\r][\n]"
+ >> "Host: reqres.in[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> GET /api/users/2 HTTP/1.1
+>> Accept: */*
+>> Host: reqres.in
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+>> Accept-Encoding: gzip,deflate
+ << "HTTP/1.1 200 OK[\r][\n]"
+ << "Date: Thu, 16 Feb 2023 15:19:18 GMT[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Transfer-Encoding: chunked[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Access-Control-Allow-Origin: *[\r][\n]"
+ << "Etag: W/"118-pbdwwFo9SKNhD3Lx5iHJyngpq00"[\r][\n]"
+ << "Via: 1.1 vegur[\r][\n]"
+ << "Cache-Control: max-age=14400[\r][\n]"
+ << "CF-Cache-Status: HIT[\r][\n]"
+ << "Age: 2334[\r][\n]"
+ << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=oHVp4A9MXifLV3lAfP%2Fsx8Q%2BIzNrrIE90ouzgFxGxCrbXpHzW6pBJQZZPMAtQoNiwkICIbHz4c9Qj2rXkkDaNd2IsPwKkZA3VgmzSAaT%2BDoK8KcBrOklpmm7vw%3D%3D"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+ << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]"
+ << "Vary: Accept-Encoding[\r][\n]"
+ << "Server: cloudflare[\r][\n]"
+ << "CF-RAY: 79a742c72f3c3c0c-BLR[\r][\n]"
+ << "Content-Encoding: gzip[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 200 OK
+<< HTTP/1.1 200 OK
+<< Date: Thu, 16 Feb 2023 15:19:18 GMT
+<< Content-Type: application/json; charset=utf-8
+<< Transfer-Encoding: chunked
+<< Connection: keep-alive
+<< X-Powered-By: Express
+<< Access-Control-Allow-Origin: *
+<< Etag: W/"118-pbdwwFo9SKNhD3Lx5iHJyngpq00"
+<< Via: 1.1 vegur
+<< Cache-Control: max-age=14400
+<< CF-Cache-Status: HIT
+<< Age: 2334
+<< Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=oHVp4A9MXifLV3lAfP%2Fsx8Q%2BIzNrrIE90ouzgFxGxCrbXpHzW6pBJQZZPMAtQoNiwkICIbHz4c9Qj2rXkkDaNd2IsPwKkZA3VgmzSAaT%2BDoK8KcBrOklpmm7vw%3D%3D"}],"group":"cf-nel","max_age":604800}
+<< NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+<< Vary: Accept-Encoding
+<< Server: cloudflare
+<< CF-RAY: 79a742c72f3c3c0c-BLR
+<< Content-Encoding: gzip
+Connection can be kept alive indefinitely
+Parsing response as: application/json; charset=utf-8
+ << "d0[\r][\n]"
+ << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3]m[0x8e][0xb1]j[0xc3]0[0x14]EE[0xbd]Y[0x15][0x1b]2j[0xea][0xdc]1[0x14]:[0x96]W[0xfb][0xda]QjK[0xca][0xd3][0xb3][0x13][0x8][0xfe][0xf7][0x92]R[0xda][0xa5][0xeb][0xe5][0x9c][0xc3][0xbd][0xa3][0x17][0x13][0x84];b[0x8f]p[0xf0][0xe0],qB[0xc0]Y[0x12][0xad][0xb9]RV[0xea][0xb3][0xf2][0xa2][0xac]ML[0xf0][0x18][0xa2]V{O2[0x13][0x1]/[0xf][\n]"
+ << "[0x1e][0x93][0xfc]mo[0xdf][0xe]<d[0x15][0x13]E[0xc0][0xc9][0xac][0xd4][0xd0][0xb6][0xbf][0x99]6[0xce]c;H[0xc7][0xda][0x1e][0xf6]q[0x96][0x91][0xcd][0xb9][0x8c][0xd8]<[0xea]RJV{[0x1c]Zt[0xfa][0xd7][0xdd][0xfd]0[0xfb][0x13][0xa5][0x8f]i[0x84][0x87][0xf1]f[0x8]x[0xcd][0xee][0x93],[0xee][0xc8][0xcb][0x91][0xd5][\r]Jz[0xd7][0xe5]d[0x1a]?[0x16][0x8b]9Ug[0xf9]*[0xda]WW[0xa9]+[0xd5]u[0xb9]Zu[0xa2]tR[0x8a][0xb2][0x8b]b[0xec][0x9f][0xb0]m_[0xb][0x8c][0xc5][0xb5][0x18][0x1][0x0][0x0]"
+ << "[\r][\n]"
+ << "0[\r][\n]"
+ << "[\r][\n]"
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@12d40609
+Connection can be kept alive indefinitely
+Get connection for route {s}->https://reqres.in:443
+Connecting to reqres.in:443
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: GET /api/users/2 HTTP/1.1
+ >> "GET /api/users/2 HTTP/1.1[\r][\n]"
+ >> "Accept: */*[\r][\n]"
+ >> "Host: reqres.in[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> GET /api/users/2 HTTP/1.1
+>> Accept: */*
+>> Host: reqres.in
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+>> Accept-Encoding: gzip,deflate
+ << "HTTP/1.1 200 OK[\r][\n]"
+ << "Date: Thu, 16 Feb 2023 15:19:18 GMT[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Transfer-Encoding: chunked[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Access-Control-Allow-Origin: *[\r][\n]"
+ << "Etag: W/"118-pbdwwFo9SKNhD3Lx5iHJyngpq00"[\r][\n]"
+ << "Via: 1.1 vegur[\r][\n]"
+ << "Cache-Control: max-age=14400[\r][\n]"
+ << "CF-Cache-Status: HIT[\r][\n]"
+ << "Age: 2334[\r][\n]"
+ << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=T6ThtZJvn5h97KxXT%2Flef0HUZLhM0YcKEfYa7rB5UtSfqLcWailL7H0wOu%2FH0mBUij%2BjorTxyfb1u8LFQYeKEqbM0CvScErZMaTxIFW%2Birm0yqfn1R4L%2B6RO1w%3D%3D"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+ << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]"
+ << "Vary: Accept-Encoding[\r][\n]"
+ << "Server: cloudflare[\r][\n]"
+ << "CF-RAY: 79a742c79f883c06-BLR[\r][\n]"
+ << "Content-Encoding: gzip[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 200 OK
+<< HTTP/1.1 200 OK
+<< Date: Thu, 16 Feb 2023 15:19:18 GMT
+<< Content-Type: application/json; charset=utf-8
+<< Transfer-Encoding: chunked
+<< Connection: keep-alive
+<< X-Powered-By: Express
+<< Access-Control-Allow-Origin: *
+<< Etag: W/"118-pbdwwFo9SKNhD3Lx5iHJyngpq00"
+<< Via: 1.1 vegur
+<< Cache-Control: max-age=14400
+<< CF-Cache-Status: HIT
+<< Age: 2334
+<< Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=T6ThtZJvn5h97KxXT%2Flef0HUZLhM0YcKEfYa7rB5UtSfqLcWailL7H0wOu%2FH0mBUij%2BjorTxyfb1u8LFQYeKEqbM0CvScErZMaTxIFW%2Birm0yqfn1R4L%2B6RO1w%3D%3D"}],"group":"cf-nel","max_age":604800}
+<< NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+<< Vary: Accept-Encoding
+<< Server: cloudflare
+<< CF-RAY: 79a742c79f883c06-BLR
+<< Content-Encoding: gzip
+Connection can be kept alive indefinitely
+Parsing response as: application/json; charset=utf-8
+ << "d0[\r][\n]"
+ << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3]m[0x8e][0xb1]j[0xc3]0[0x14]EE[0xbd]Y[0x15][0x1b]2j[0xea][0xdc]1[0x14]:[0x96]W[0xfb][0xda]QjK[0xca][0xd3][0xb3][0x13][0x8][0xfe][0xf7][0x92]R[0xda][0xa5][0xeb][0xe5][0x9c][0xc3][0xbd][0xa3][0x17][0x13][0x84];b[0x8f]p[0xf0][0xe0],qB[0xc0]Y[0x12][0xad][0xb9]RV[0xea][0xb3][0xf2][0xa2][0xac]ML[0xf0][0x18][0xa2]V{O2[0x13][0x1]/[0xf][\n]"
+ << "[0x1e][0x93][0xfc]mo[0xdf][0xe]<d[0x15][0x13]E[0xc0][0xc9][0xac][0xd4][0xd0][0xb6][0xbf][0x99]6[0xce]c;H[0xc7][0xda][0x1e][0xf6]q[0x96][0x91][0xcd][0xb9][0x8c][0xd8]<[0xea]RJV{[0x1c]Zt[0xfa][0xd7][0xdd][0xfd]0[0xfb][0x13][0xa5][0x8f]i[0x84][0x87][0xf1]f[0x8]x[0xcd][0xee][0x93],[0xee][0xc8][0xcb][0x91][0xd5][\r]Jz[0xd7][0xe5]d[0x1a]?[0x16][0x8b]9Ug[0xf9]*[0xda]WW[0xa9]+[0xd5]u[0xb9]Zu[0xa2]tR[0x8a][0xb2][0x8b]b[0xec][0x9f][0xb0]m_[0xb][0x8c][0xc5][0xb5][0x18][0x1][0x0][0x0]"
+ << "[\r][\n]"
+ << "0[\r][\n]"
+ << "[\r][\n]"
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@7b351446
+Connection can be kept alive indefinitely
+Get connection for route {s}->https://reqres.in:443
+Connecting to reqres.in:443
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: GET /api/users/3 HTTP/1.1
+ >> "GET /api/users/3 HTTP/1.1[\r][\n]"
+ >> "Accept: */*[\r][\n]"
+ >> "Host: reqres.in[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> GET /api/users/3 HTTP/1.1
+>> Accept: */*
+>> Host: reqres.in
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+>> Accept-Encoding: gzip,deflate
+ << "HTTP/1.1 200 OK[\r][\n]"
+ << "Date: Thu, 16 Feb 2023 15:19:19 GMT[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Transfer-Encoding: chunked[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Access-Control-Allow-Origin: *[\r][\n]"
+ << "Etag: W/"112-EeInfgHWtnxhYRnwgZUB667e024"[\r][\n]"
+ << "Via: 1.1 vegur[\r][\n]"
+ << "Cache-Control: max-age=14400[\r][\n]"
+ << "CF-Cache-Status: HIT[\r][\n]"
+ << "Age: 1495[\r][\n]"
+ << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=YTAH822SdUqdaJp2xtWm%2BYyuyFddELG2DkinIDQYjPaddRndHnQa0hgdMiB9mHhiOCateq4A9EhryjdlyecNc0uu5tmv6jzKOVzrjfqAcmmFkF4dEkZ3euL1Fw%3D%3D"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+ << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]"
+ << "Vary: Accept-Encoding[\r][\n]"
+ << "Server: cloudflare[\r][\n]"
+ << "CF-RAY: 79a742c84cec83f3-BLR[\r][\n]"
+ << "Content-Encoding: gzip[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 200 OK
+<< HTTP/1.1 200 OK
+<< Date: Thu, 16 Feb 2023 15:19:19 GMT
+<< Content-Type: application/json; charset=utf-8
+<< Transfer-Encoding: chunked
+<< Connection: keep-alive
+<< X-Powered-By: Express
+<< Access-Control-Allow-Origin: *
+<< Etag: W/"112-EeInfgHWtnxhYRnwgZUB667e024"
+<< Via: 1.1 vegur
+<< Cache-Control: max-age=14400
+<< CF-Cache-Status: HIT
+<< Age: 1495
+<< Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=YTAH822SdUqdaJp2xtWm%2BYyuyFddELG2DkinIDQYjPaddRndHnQa0hgdMiB9mHhiOCateq4A9EhryjdlyecNc0uu5tmv6jzKOVzrjfqAcmmFkF4dEkZ3euL1Fw%3D%3D"}],"group":"cf-nel","max_age":604800}
+<< NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+<< Vary: Accept-Encoding
+<< Server: cloudflare
+<< CF-RAY: 79a742c84cec83f3-BLR
+<< Content-Encoding: gzip
+Connection can be kept alive indefinitely
+Parsing response as: application/json; charset=utf-8
+ << "d0[\r][\n]"
+ << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3]m[0x8e][0xbd]N[0x3]1[0x10][0x84]_[0xc5][0xc][0xad]s.[0xd2][0xb9][0xa2][0xe1][0x5]"$J[0xb4][0x9c][0xf7].[0x86][0xf3]Ov[0xf7][0x12][0xa4][0xe8][0xde]=[\n]"
+ << "B[0xd0][0xd0][0x8e][0xe6][0x9b]o[0xae]Hd[0x84]xEN[0x88]{[0xf].[0x94][0x17]Dp)4\Z[0x9d][0x9f][0x84]O[0xc2]:[0xe4][\n]"
+ << "[0x8f])[0x8b][0xda][[0xa5][0xc2][0x88]x.[0x85][0xe0][0xb1][0xd0]_[0xf4][0xda][0xea][0xc][0xf]:[0x93][0x91] [0xe2]h[0xd6]5[0x86][0xf0][0xbb][0x11]r[0x99][0xc3]D#k[0xd8][0xef]r[0xa1][0x99][0x87][0x8f]>c[0xf3][0xd0][0xb5][0xf7]&v[0xbf][0xb2][0xca][0xf2]/[0xfb][0xf8][0xd3][0xd9][0x1d][0x99]R[0xfe]6[0x19][0x19]"^[0x9a][0xfb]d[0xee][0xee][0xc0][0xa7][0x3][0xab][0x9b][0x84][0xd9][0xbb][0xb1]U[0x93][0xfc][0xbe]ZnU[0x9d][0xb5][0xb]IR[0xa7],g[0x16]765u$[0xec][0xa8]w[0xe1]1[0x93]qz[0xc0][0xb6][0xdd][0x0]\[0xda]2[0xc3][0x12][0x1][0x0][0x0]"
+ << "[\r][\n]"
+ << "0[\r][\n]"
+ << "[\r][\n]"
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@31da0434
+Connection can be kept alive indefinitely
+Get connection for route {s}->https://reqres.in:443
+Connecting to reqres.in:443
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: GET /api/users/3 HTTP/1.1
+ >> "GET /api/users/3 HTTP/1.1[\r][\n]"
+ >> "Accept: */*[\r][\n]"
+ >> "Host: reqres.in[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> GET /api/users/3 HTTP/1.1
+>> Accept: */*
+>> Host: reqres.in
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+>> Accept-Encoding: gzip,deflate
+ << "HTTP/1.1 200 OK[\r][\n]"
+ << "Date: Thu, 16 Feb 2023 15:19:19 GMT[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Transfer-Encoding: chunked[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Access-Control-Allow-Origin: *[\r][\n]"
+ << "Etag: W/"112-EeInfgHWtnxhYRnwgZUB667e024"[\r][\n]"
+ << "Via: 1.1 vegur[\r][\n]"
+ << "Cache-Control: max-age=14400[\r][\n]"
+ << "CF-Cache-Status: HIT[\r][\n]"
+ << "Age: 1495[\r][\n]"
+ << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ikM%2F7k%2BCK5HiWrqa6Wf0gua2g88hSHE2Kc6laXQTABQBZGpfDTzRIGgOMnVrCVG35pSkuuzx%2FBfYsCx72CzItM6uBExA5J3pCSik3lLRY8YgtZ4CIcrW0v06DQ%3D%3D"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+ << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]"
+ << "Vary: Accept-Encoding[\r][\n]"
+ << "Server: cloudflare[\r][\n]"
+ << "CF-RAY: 79a742c8ccf23c13-BLR[\r][\n]"
+ << "Content-Encoding: gzip[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 200 OK
+<< HTTP/1.1 200 OK
+<< Date: Thu, 16 Feb 2023 15:19:19 GMT
+<< Content-Type: application/json; charset=utf-8
+<< Transfer-Encoding: chunked
+<< Connection: keep-alive
+<< X-Powered-By: Express
+<< Access-Control-Allow-Origin: *
+<< Etag: W/"112-EeInfgHWtnxhYRnwgZUB667e024"
+<< Via: 1.1 vegur
+<< Cache-Control: max-age=14400
+<< CF-Cache-Status: HIT
+<< Age: 1495
+<< Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ikM%2F7k%2BCK5HiWrqa6Wf0gua2g88hSHE2Kc6laXQTABQBZGpfDTzRIGgOMnVrCVG35pSkuuzx%2FBfYsCx72CzItM6uBExA5J3pCSik3lLRY8YgtZ4CIcrW0v06DQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+<< NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+<< Vary: Accept-Encoding
+<< Server: cloudflare
+<< CF-RAY: 79a742c8ccf23c13-BLR
+<< Content-Encoding: gzip
+Connection can be kept alive indefinitely
+Parsing response as: application/json; charset=utf-8
+ << "d0[\r][\n]"
+ << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3]m[0x8e][0xbd]N[0x3]1[0x10][0x84]_[0xc5][0xc][0xad]s.[0xd2][0xb9][0xa2][0xe1][0x5]"$J[0xb4][0x9c][0xf7].[0x86][0xf3]Ov[0xf7][0x12][0xa4][0xe8][0xde]=[\n]"
+ << "B[0xd0][0xd0][0x8e][0xe6][0x9b]o[0xae]Hd[0x84]xEN[0x88]{[0xf].[0x94][0x17]Dp)4\Z[0x9d][0x9f][0x84]O[0xc2]:[0xe4][\n]"
+ << "[0x8f])[0x8b][0xda][[0xa5][0xc2][0x88]x.[0x85][0xe0][0xb1][0xd0]_[0xf4][0xda][0xea][0xc][0xf]:[0x93][0x91] [0xe2]h[0xd6]5[0x86][0xf0][0xbb][0x11]r[0x99][0xc3]D#k[0xd8][0xef]r[0xa1][0x99][0x87][0x8f]>c[0xf3][0xd0][0xb5][0xf7]&v[0xbf][0xb2][0xca][0xf2]/[0xfb][0xf8][0xd3][0xd9][0x1d][0x99]R[0xfe]6[0x19][0x19]"^[0x9a][0xfb]d[0xee][0xee][0xc0][0xa7][0x3][0xab][0x9b][0x84][0xd9][0xbb][0xb1]U[0x93][0xfc][0xbe]ZnU[0x9d][0xb5][0xb]IR[0xa7],g[0x16]765u$[0xec][0xa8]w[0xe1]1[0x93]qz[0xc0][0xb6][0xdd][0x0]\[0xda]2[0xc3][0x12][0x1][0x0][0x0]"
+ << "[\r][\n]"
+ << "0[\r][\n]"
+ << "[\r][\n]"
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@4b03cbad
+Connection can be kept alive indefinitely
+Get connection for route {s}->https://reqres.in:443
+Connecting to reqres.in:443
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: GET /api/users/3 HTTP/1.1
+ >> "GET /api/users/3 HTTP/1.1[\r][\n]"
+ >> "Accept: */*[\r][\n]"
+ >> "Host: reqres.in[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> GET /api/users/3 HTTP/1.1
+>> Accept: */*
+>> Host: reqres.in
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+>> Accept-Encoding: gzip,deflate
+ << "HTTP/1.1 200 OK[\r][\n]"
+ << "Date: Thu, 16 Feb 2023 15:19:19 GMT[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Transfer-Encoding: chunked[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Access-Control-Allow-Origin: *[\r][\n]"
+ << "Etag: W/"112-EeInfgHWtnxhYRnwgZUB667e024"[\r][\n]"
+ << "Via: 1.1 vegur[\r][\n]"
+ << "Cache-Control: max-age=14400[\r][\n]"
+ << "CF-Cache-Status: HIT[\r][\n]"
+ << "Age: 1495[\r][\n]"
+ << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=V%2FcSIcwLRd98KYdi37s8RgntgJjQSicY4wDxXi8557M4WI%2FeK6hLevdG8Jr%2F%2BkMFBhzv5%2Fj9Ojq6BmZ2%2BFN2go5tJJg7dhG4qLoIUrW1hpupG7DUZ8IPq4K0zA%3D%3D"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+ << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]"
+ << "Vary: Accept-Encoding[\r][\n]"
+ << "Server: cloudflare[\r][\n]"
+ << "CF-RAY: 79a742c93f4a3c07-BLR[\r][\n]"
+ << "Content-Encoding: gzip[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 200 OK
+<< HTTP/1.1 200 OK
+<< Date: Thu, 16 Feb 2023 15:19:19 GMT
+<< Content-Type: application/json; charset=utf-8
+<< Transfer-Encoding: chunked
+<< Connection: keep-alive
+<< X-Powered-By: Express
+<< Access-Control-Allow-Origin: *
+<< Etag: W/"112-EeInfgHWtnxhYRnwgZUB667e024"
+<< Via: 1.1 vegur
+<< Cache-Control: max-age=14400
+<< CF-Cache-Status: HIT
+<< Age: 1495
+<< Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=V%2FcSIcwLRd98KYdi37s8RgntgJjQSicY4wDxXi8557M4WI%2FeK6hLevdG8Jr%2F%2BkMFBhzv5%2Fj9Ojq6BmZ2%2BFN2go5tJJg7dhG4qLoIUrW1hpupG7DUZ8IPq4K0zA%3D%3D"}],"group":"cf-nel","max_age":604800}
+<< NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+<< Vary: Accept-Encoding
+<< Server: cloudflare
+<< CF-RAY: 79a742c93f4a3c07-BLR
+<< Content-Encoding: gzip
+Connection can be kept alive indefinitely
+Parsing response as: application/json; charset=utf-8
+ << "d0[\r][\n]"
+ << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3]m[0x8e][0xbd]N[0x3]1[0x10][0x84]_[0xc5][0xc][0xad]s.[0xd2][0xb9][0xa2][0xe1][0x5]"$J[0xb4][0x9c][0xf7].[0x86][0xf3]Ov[0xf7][0x12][0xa4][0xe8][0xde]=[\n]"
+ << "B[0xd0][0xd0][0x8e][0xe6][0x9b]o[0xae]Hd[0x84]xEN[0x88]{[0xf].[0x94][0x17]Dp)4\Z[0x9d][0x9f][0x84]O[0xc2]:[0xe4][\n]"
+ << "[0x8f])[0x8b][0xda][[0xa5][0xc2][0x88]x.[0x85][0xe0][0xb1][0xd0]_[0xf4][0xda][0xea][0xc][0xf]:[0x93][0x91] [0xe2]h[0xd6]5[0x86][0xf0][0xbb][0x11]r[0x99][0xc3]D#k[0xd8][0xef]r[0xa1][0x99][0x87][0x8f]>c[0xf3][0xd0][0xb5][0xf7]&v[0xbf][0xb2][0xca][0xf2]/[0xfb][0xf8][0xd3][0xd9][0x1d][0x99]R[0xfe]6[0x19][0x19]"^[0x9a][0xfb]d[0xee][0xee][0xc0][0xa7][0x3][0xab][0x9b][0x84][0xd9][0xbb][0xb1]U[0x93][0xfc][0xbe]ZnU[0x9d][0xb5][0xb]IR[0xa7],g[0x16]765u$[0xec][0xa8]w[0xe1]1[0x93]qz[0xc0][0xb6][0xdd][0x0]\[0xda]2[0xc3][0x12][0x1][0x0][0x0]"
+ << "[\r][\n]"
+ << "0[\r][\n]"
+ << "[\r][\n]"
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@f5bf288
+Connection can be kept alive indefinitely
+Connection 0.0.0.0:60771<->172.67.73.173:443 closed
+Connection 0.0.0.0:60772<->172.67.73.173:443 closed
+Connection 0.0.0.0:60767<->172.67.73.173:443 closed
+Connection 0.0.0.0:60768<->172.67.73.173:443 closed
+Connection 0.0.0.0:60769<->172.67.73.173:443 closed
+Connection 0.0.0.0:60764<->172.67.73.173:443 closed
+Connection 0.0.0.0:60765<->172.67.73.173:443 closed
+Connection 0.0.0.0:60766<->172.67.73.173:443 closed
+Get connection for route {s}->https://reqres.in:443
+Connecting to reqres.in:443
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: GET /api/users/4 HTTP/1.1
+ >> "GET /api/users/4 HTTP/1.1[\r][\n]"
+ >> "Accept: */*[\r][\n]"
+ >> "Host: reqres.in[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> GET /api/users/4 HTTP/1.1
+>> Accept: */*
+>> Host: reqres.in
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+>> Accept-Encoding: gzip,deflate
+ << "HTTP/1.1 200 OK[\r][\n]"
+ << "Date: Thu, 16 Feb 2023 15:19:19 GMT[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Transfer-Encoding: chunked[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Access-Control-Allow-Origin: *[\r][\n]"
+ << "Etag: W/"110-Xdg3LtI+q2zMxihHlfeIZQo/bvY"[\r][\n]"
+ << "Via: 1.1 vegur[\r][\n]"
+ << "Cache-Control: max-age=14400[\r][\n]"
+ << "CF-Cache-Status: HIT[\r][\n]"
+ << "Age: 1495[\r][\n]"
+ << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=e8od7rA9UQZZ3xyuLayFcI1xHsugNHIAWgMqueH3TZji8G0P%2F6zpzRncmo8ovbNt2kTuUZGCw3ZPgt26kSOc63qkz3lk4NeCcxwVFBr%2FOIJmSv1vNxOBnaPP8Q%3D%3D"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+ << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]"
+ << "Vary: Accept-Encoding[\r][\n]"
+ << "Server: cloudflare[\r][\n]"
+ << "CF-RAY: 79a742c9ee5083f3-BLR[\r][\n]"
+ << "Content-Encoding: gzip[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 200 OK
+<< HTTP/1.1 200 OK
+<< Date: Thu, 16 Feb 2023 15:19:19 GMT
+<< Content-Type: application/json; charset=utf-8
+<< Transfer-Encoding: chunked
+<< Connection: keep-alive
+<< X-Powered-By: Express
+<< Access-Control-Allow-Origin: *
+<< Etag: W/"110-Xdg3LtI+q2zMxihHlfeIZQo/bvY"
+<< Via: 1.1 vegur
+<< Cache-Control: max-age=14400
+<< CF-Cache-Status: HIT
+<< Age: 1495
+<< Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=e8od7rA9UQZZ3xyuLayFcI1xHsugNHIAWgMqueH3TZji8G0P%2F6zpzRncmo8ovbNt2kTuUZGCw3ZPgt26kSOc63qkz3lk4NeCcxwVFBr%2FOIJmSv1vNxOBnaPP8Q%3D%3D"}],"group":"cf-nel","max_age":604800}
+<< NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+<< Vary: Accept-Encoding
+<< Server: cloudflare
+<< CF-RAY: 79a742c9ee5083f3-BLR
+<< Content-Encoding: gzip
+Connection can be kept alive indefinitely
+Parsing response as: application/json; charset=utf-8
+ << "cd[\r][\n]"
+ << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3]m[0x8e][0xb1]N[0xc4]0[0x10]D[0xc5][0xc][0xad]/i[0xae]rE[0x83]D}[0xa2]GK2I[0xc]I[0xec][0xdb][0xdd][0x4][0xa4]S[0xfe][0x1d]!!hhG[0xef]=[0xcd][\r][0xbd][0xb8] [0xdd][0x90]{[0xa4]s[0x4][0x17][0xc9]3[0x12][0xb8][0xb3][0x99][0xca][0xec][0xf][0xca][0xab][0xd2][0x9a][0xbc]"b[0xc8]j[0xfe][0xb2][0xca]B$<[0xee]D[0xc4],[0xcb]S[0x99][0x1d][0x11][0xb2][0x8b][0x8b]"ar[0xaf][0x96][0xda][0xf6]7[0xd1][0xe6]el[0x7][0xe9]h[0xed][0xf9][0x94][0x17][0x19][0xd9][0xbc][0xd5][0x11]G[0x84]m[0xb5][0x16][0xf5][0xef]#[0x9b][0xce][0xff][0xba][0xf7]?[0xcc]i[0xa2][0xf4]y[0x1d][0x11][0xe1][0xfc]t$<[0x97][0xf0]N[0xd6]p[0xe1][0xf5]B[0xb][0x83][0x92]1teu[0xcd][0xaf][0x9b][0xe7][0xb2]Z[0xf0][0xf2]![0xda][0[0xea]N[\r]]1[0xb7] [0xca] [0xb5]*[0xbb],[0xce][0xfe][0xe][0xc7][0xf1][0x5]0[0x88][0xaf][0x98][0x10][0x1][0x0][0x0]"
+ << "[\r][\n]"
+ << "0[\r][\n]"
+ << "[\r][\n]"
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@6c0b51da
+Connection can be kept alive indefinitely
+Get connection for route {s}->https://reqres.in:443
+Connecting to reqres.in:443
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: GET /api/users/4 HTTP/1.1
+ >> "GET /api/users/4 HTTP/1.1[\r][\n]"
+ >> "Accept: */*[\r][\n]"
+ >> "Host: reqres.in[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> GET /api/users/4 HTTP/1.1
+>> Accept: */*
+>> Host: reqres.in
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+>> Accept-Encoding: gzip,deflate
+ << "HTTP/1.1 200 OK[\r][\n]"
+ << "Date: Thu, 16 Feb 2023 15:19:19 GMT[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Transfer-Encoding: chunked[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Access-Control-Allow-Origin: *[\r][\n]"
+ << "Etag: W/"110-Xdg3LtI+q2zMxihHlfeIZQo/bvY"[\r][\n]"
+ << "Via: 1.1 vegur[\r][\n]"
+ << "Cache-Control: max-age=14400[\r][\n]"
+ << "CF-Cache-Status: HIT[\r][\n]"
+ << "Age: 1495[\r][\n]"
+ << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=CpPPcscWLjGE1BzGxyvsP%2Bh3g64XE1%2B4A%2BGVszTtkJb8JRv64jwKcOEJsP2bMao0q4bSi6ldESg30xiE9dwAhMsQScmQFShFm8WPE3sAA%2BldvD%2BBDw2GdIFp2w%3D%3D"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+ << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]"
+ << "Vary: Accept-Encoding[\r][\n]"
+ << "Server: cloudflare[\r][\n]"
+ << "CF-RAY: 79a742ca5c603c0d-BLR[\r][\n]"
+ << "Content-Encoding: gzip[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 200 OK
+<< HTTP/1.1 200 OK
+<< Date: Thu, 16 Feb 2023 15:19:19 GMT
+<< Content-Type: application/json; charset=utf-8
+<< Transfer-Encoding: chunked
+<< Connection: keep-alive
+<< X-Powered-By: Express
+<< Access-Control-Allow-Origin: *
+<< Etag: W/"110-Xdg3LtI+q2zMxihHlfeIZQo/bvY"
+<< Via: 1.1 vegur
+<< Cache-Control: max-age=14400
+<< CF-Cache-Status: HIT
+<< Age: 1495
+<< Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=CpPPcscWLjGE1BzGxyvsP%2Bh3g64XE1%2B4A%2BGVszTtkJb8JRv64jwKcOEJsP2bMao0q4bSi6ldESg30xiE9dwAhMsQScmQFShFm8WPE3sAA%2BldvD%2BBDw2GdIFp2w%3D%3D"}],"group":"cf-nel","max_age":604800}
+<< NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+<< Vary: Accept-Encoding
+<< Server: cloudflare
+<< CF-RAY: 79a742ca5c603c0d-BLR
+<< Content-Encoding: gzip
+Connection can be kept alive indefinitely
+Parsing response as: application/json; charset=utf-8
+ << "cd[\r][\n]"
+ << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3]m[0x8e][0xb1]N[0xc4]0[0x10]D[0xc5][0xc][0xad]/i[0xae]rE[0x83]D}[0xa2]GK2I[0xc]I[0xec][0xdb][0xdd][0x4][0xa4]S[0xfe][0x1d]!!hhG[0xef]=[0xcd][\r][0xbd][0xb8] [0xdd][0x90]{[0xa4]s[0x4][0x17][0xc9]3[0x12][0xb8][0xb3][0x99][0xca][0xec][0xf][0xca][0xab][0xd2][0x9a][0xbc]"b[0xc8]j[0xfe][0xb2][0xca]B$<[0xee]D[0xc4],[0xcb]S[0x99][0x1d][0x11][0xb2][0x8b][0x8b]"ar[0xaf][0x96][0xda][0xf6]7[0xd1][0xe6]el[0x7][0xe9]h[0xed][0xf9][0x94][0x17][0x19][0xd9][0xbc][0xd5][0x11]G[0x84]m[0xb5][0x16][0xf5][0xef]#[0x9b][0xce][0xff][0xba][0xf7]?[0xcc]i[0xa2][0xf4]y[0x1d][0x11][0xe1][0xfc]t$<[0x97][0xf0]N[0xd6]p[0xe1][0xf5]B[0xb][0x83][0x92]1teu[0xcd][0xaf][0x9b][0xe7][0xb2]Z[0xf0][0xf2]![0xda][0[0xea]N[\r]]1[0xb7] [0xca] [0xb5]*[0xbb],[0xce][0xfe][0xe][0xc7][0xf1][0x5]0[0x88][0xaf][0x98][0x10][0x1][0x0][0x0]"
+ << "[\r][\n]"
+ << "0[\r][\n]"
+ << "[\r][\n]"
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@67f946c3
+Connection can be kept alive indefinitely
+Get connection for route {s}->https://reqres.in:443
+Connecting to reqres.in:443
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: GET /api/users/4 HTTP/1.1
+ >> "GET /api/users/4 HTTP/1.1[\r][\n]"
+ >> "Accept: */*[\r][\n]"
+ >> "Host: reqres.in[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> GET /api/users/4 HTTP/1.1
+>> Accept: */*
+>> Host: reqres.in
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+>> Accept-Encoding: gzip,deflate
+ << "HTTP/1.1 200 OK[\r][\n]"
+ << "Date: Thu, 16 Feb 2023 15:19:19 GMT[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Transfer-Encoding: chunked[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Access-Control-Allow-Origin: *[\r][\n]"
+ << "Etag: W/"110-Xdg3LtI+q2zMxihHlfeIZQo/bvY"[\r][\n]"
+ << "Via: 1.1 vegur[\r][\n]"
+ << "Cache-Control: max-age=14400[\r][\n]"
+ << "CF-Cache-Status: HIT[\r][\n]"
+ << "Age: 1495[\r][\n]"
+ << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=RAdY9Wf0roJlB83x3PtNCORfXR1fF4rtmoXLtq5JN7l%2FD2gR3qH8Ip%2FWec5%2BmiA5qLFpg0UKKlv4XTIltZmbotjZ%2FbsjlUQi16K9KweFoUKc0F6VYe7bPbEH0g%3D%3D"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+ << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]"
+ << "Vary: Accept-Encoding[\r][\n]"
+ << "Server: cloudflare[\r][\n]"
+ << "CF-RAY: 79a742cabf3483f3-BLR[\r][\n]"
+ << "Content-Encoding: gzip[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 200 OK
+<< HTTP/1.1 200 OK
+<< Date: Thu, 16 Feb 2023 15:19:19 GMT
+<< Content-Type: application/json; charset=utf-8
+<< Transfer-Encoding: chunked
+<< Connection: keep-alive
+<< X-Powered-By: Express
+<< Access-Control-Allow-Origin: *
+<< Etag: W/"110-Xdg3LtI+q2zMxihHlfeIZQo/bvY"
+<< Via: 1.1 vegur
+<< Cache-Control: max-age=14400
+<< CF-Cache-Status: HIT
+<< Age: 1495
+<< Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=RAdY9Wf0roJlB83x3PtNCORfXR1fF4rtmoXLtq5JN7l%2FD2gR3qH8Ip%2FWec5%2BmiA5qLFpg0UKKlv4XTIltZmbotjZ%2FbsjlUQi16K9KweFoUKc0F6VYe7bPbEH0g%3D%3D"}],"group":"cf-nel","max_age":604800}
+<< NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+<< Vary: Accept-Encoding
+<< Server: cloudflare
+<< CF-RAY: 79a742cabf3483f3-BLR
+<< Content-Encoding: gzip
+Connection can be kept alive indefinitely
+Parsing response as: application/json; charset=utf-8
+ << "cd[\r][\n]"
+ << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3]m[0x8e][0xb1]N[0xc4]0[0x10]D[0xc5][0xc][0xad]/i[0xae]rE[0x83]D}[0xa2]GK2I[0xc]I[0xec][0xdb][0xdd][0x4][0xa4]S[0xfe][0x1d]!!hhG[0xef]=[0xcd][\r][0xbd][0xb8] [0xdd][0x90]{[0xa4]s[0x4][0x17][0xc9]3[0x12][0xb8][0xb3][0x99][0xca][0xec][0xf][0xca][0xab][0xd2][0x9a][0xbc]"b[0xc8]j[0xfe][0xb2][0xca]B$<[0xee]D[0xc4],[0xcb]S[0x99][0x1d][0x11][0xb2][0x8b][0x8b]"ar[0xaf][0x96][0xda][0xf6]7[0xd1][0xe6]el[0x7][0xe9]h[0xed][0xf9][0x94][0x17][0x19][0xd9][0xbc][0xd5][0x11]G[0x84]m[0xb5][0x16][0xf5][0xef]#[0x9b][0xce][0xff][0xba][0xf7]?[0xcc]i[0xa2][0xf4]y[0x1d][0x11][0xe1][0xfc]t$<[0x97][0xf0]N[0xd6]p[0xe1][0xf5]B[0xb][0x83][0x92]1teu[0xcd][0xaf][0x9b][0xe7][0xb2]Z[0xf0][0xf2]![0xda][0[0xea]N[\r]]1[0xb7] [0xca] [0xb5]*[0xbb],[0xce][0xfe][0xe][0xc7][0xf1][0x5]0[0x88][0xaf][0x98][0x10][0x1][0x0][0x0]"
+ << "[\r][\n]"
+ << "0[\r][\n]"
+ << "[\r][\n]"
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@40bd0f8
+Connection can be kept alive indefinitely
+Get connection for route {s}->https://reqres.in:443
+Connecting to reqres.in:443
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: GET /api/users/5 HTTP/1.1
+ >> "GET /api/users/5 HTTP/1.1[\r][\n]"
+ >> "Accept: */*[\r][\n]"
+ >> "Host: reqres.in[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> GET /api/users/5 HTTP/1.1
+>> Accept: */*
+>> Host: reqres.in
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+>> Accept-Encoding: gzip,deflate
+ << "HTTP/1.1 200 OK[\r][\n]"
+ << "Date: Thu, 16 Feb 2023 15:19:19 GMT[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Transfer-Encoding: chunked[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Access-Control-Allow-Origin: *[\r][\n]"
+ << "Etag: W/"11c-fbAvBCQSZgUU6dvLRqxYG0dwUTM"[\r][\n]"
+ << "Via: 1.1 vegur[\r][\n]"
+ << "Cache-Control: max-age=14400[\r][\n]"
+ << "CF-Cache-Status: HIT[\r][\n]"
+ << "Age: 1839[\r][\n]"
+ << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=x0UJPDiFdPf3etaHl8%2BF2QhXWUdoeYcAQUyR2%2F4QF09RjALI6zF%2Fcg9nrgS7GeNLZ0vSGkyXWhRL8KBz0gXvFRCZ6uiwaA1fiGERior%2FJFE51m34s3PPH4dQnQ%3D%3D"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+ << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]"
+ << "Vary: Accept-Encoding[\r][\n]"
+ << "Server: cloudflare[\r][\n]"
+ << "CF-RAY: 79a742cb5a683c0c-BLR[\r][\n]"
+ << "Content-Encoding: gzip[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 200 OK
+<< HTTP/1.1 200 OK
+<< Date: Thu, 16 Feb 2023 15:19:19 GMT
+<< Content-Type: application/json; charset=utf-8
+<< Transfer-Encoding: chunked
+<< Connection: keep-alive
+<< X-Powered-By: Express
+<< Access-Control-Allow-Origin: *
+<< Etag: W/"11c-fbAvBCQSZgUU6dvLRqxYG0dwUTM"
+<< Via: 1.1 vegur
+<< Cache-Control: max-age=14400
+<< CF-Cache-Status: HIT
+<< Age: 1839
+<< Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=x0UJPDiFdPf3etaHl8%2BF2QhXWUdoeYcAQUyR2%2F4QF09RjALI6zF%2Fcg9nrgS7GeNLZ0vSGkyXWhRL8KBz0gXvFRCZ6uiwaA1fiGERior%2FJFE51m34s3PPH4dQnQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+<< NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+<< Vary: Accept-Encoding
+<< Server: cloudflare
+<< CF-RAY: 79a742cb5a683c0c-BLR
+<< Content-Encoding: gzip
+Connection can be kept alive indefinitely
+Parsing response as: application/json; charset=utf-8
+ << "d2[\r][\n]"
+ << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3]m[0x8e][0xbb]N[0xc4]0[0x10]E[0xc5]\ZoRm[0xe3][\n]"
+ << "[0x89][0x9a]fE[0x8f][0x86]x[0x92][0xc][0xc4][0xb1]wf[0xb2] [0xad][0xf2][0xef][0x88][0x87][0xa0][0xa1][0xbd]:[0xe7][0xe8]^[0x91][0xc9][0x9][0xe9][\n]"
+ << "[0xc9]H[0xc7][0x8].$[0xb][0x12][0x86][0x99]ta[0xeb]JU[0x15][0xbb]S>+['+"FQ[0xf3][0xa7][0x95][\n]"
+ << "#[0xe1][0xfe][0x9b]C[0xc4]B[0xeb][0xc3][0x97][0x85][0x8][0xba][0x90][0x93]"avo[0x96][0xfa][0xfe]7[0xd4]K[0x99][0xfa][0x91][0x6][0xb6][0xfe]x[0x90]B[0x13]w/m[0xc2][0x1e]a[kU[0xfd][0xf3][0xd4][0xa6][0xcb][0xbf][0xee][0xed][0xf]s[0x98][0x99][0xb2][0xac][0x13]"[0x9c][0xdf][0x1d][0x9][0x8f]5[0xbc]2[0xb7]p[0xe2][0xf3][0x89]-[0x8c][0xca][0x1c][0xc3]PWWy[0xde]\[0xea]j[0xc1][0xeb][0x1b]i[0xb6]`[0xac][0x17][0xd6]0Ts[0xb][0xa4][0x1c][0xa8]5[0xe5]A[0xc8]9[0xdf]`[0xdf]?[0x0][0xba]y[0x8a]:[0x1c][0x1][0x0][0x0]"
+ << "[\r][\n]"
+ << "0[\r][\n]"
+ << "[\r][\n]"
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@4eb9ae4d
+Connection can be kept alive indefinitely
+Get connection for route {s}->https://reqres.in:443
+Connecting to reqres.in:443
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: GET /api/users/5 HTTP/1.1
+ >> "GET /api/users/5 HTTP/1.1[\r][\n]"
+ >> "Accept: */*[\r][\n]"
+ >> "Host: reqres.in[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> GET /api/users/5 HTTP/1.1
+>> Accept: */*
+>> Host: reqres.in
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+>> Accept-Encoding: gzip,deflate
+ << "HTTP/1.1 200 OK[\r][\n]"
+ << "Date: Thu, 16 Feb 2023 15:19:19 GMT[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Transfer-Encoding: chunked[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Access-Control-Allow-Origin: *[\r][\n]"
+ << "Etag: W/"11c-fbAvBCQSZgUU6dvLRqxYG0dwUTM"[\r][\n]"
+ << "Via: 1.1 vegur[\r][\n]"
+ << "Cache-Control: max-age=14400[\r][\n]"
+ << "CF-Cache-Status: HIT[\r][\n]"
+ << "Age: 1839[\r][\n]"
+ << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=potgQHddJr9QTmdr7t6Nm5AFGA01R%2FrMJFkiek9GEGkl9q6LYA%2BvIwAHiuoKtjp6oGVLQzQMWllDqR2fT2ZIy0E%2F5KTFfiMBkix0IqVQNOE3DwklqVu0klnkKA%3D%3D"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+ << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]"
+ << "Vary: Accept-Encoding[\r][\n]"
+ << "Server: cloudflare[\r][\n]"
+ << "CF-RAY: 79a742cbcbd33c06-BLR[\r][\n]"
+ << "Content-Encoding: gzip[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 200 OK
+<< HTTP/1.1 200 OK
+<< Date: Thu, 16 Feb 2023 15:19:19 GMT
+<< Content-Type: application/json; charset=utf-8
+<< Transfer-Encoding: chunked
+<< Connection: keep-alive
+<< X-Powered-By: Express
+<< Access-Control-Allow-Origin: *
+<< Etag: W/"11c-fbAvBCQSZgUU6dvLRqxYG0dwUTM"
+<< Via: 1.1 vegur
+<< Cache-Control: max-age=14400
+<< CF-Cache-Status: HIT
+<< Age: 1839
+<< Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=potgQHddJr9QTmdr7t6Nm5AFGA01R%2FrMJFkiek9GEGkl9q6LYA%2BvIwAHiuoKtjp6oGVLQzQMWllDqR2fT2ZIy0E%2F5KTFfiMBkix0IqVQNOE3DwklqVu0klnkKA%3D%3D"}],"group":"cf-nel","max_age":604800}
+<< NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+<< Vary: Accept-Encoding
+<< Server: cloudflare
+<< CF-RAY: 79a742cbcbd33c06-BLR
+<< Content-Encoding: gzip
+Connection can be kept alive indefinitely
+Parsing response as: application/json; charset=utf-8
+ << "d2[\r][\n]"
+ << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3]m[0x8e][0xbb]N[0xc4]0[0x10]E[0xc5]\ZoRm[0xe3][\n]"
+ << "[0x89][0x9a]fE[0x8f][0x86]x[0x92][0xc][0xc4][0xb1]wf[0xb2] [0xad][0xf2][0xef][0x88][0x87][0xa0][0xa1][0xbd]:[0xe7][0xe8]^[0x91][0xc9][0x9][0xe9][\n]"
+ << "[0xc9]H[0xc7][0x8].$[0xb][0x12][0x86][0x99]ta[0xeb]JU[0x15][0xbb]S>+['+"FQ[0xf3][0xa7][0x95][\n]"
+ << "#[0xe1][0xfe][0x9b]C[0xc4]B[0xeb][0xc3][0x97][0x85][0x8][0xba][0x90][0x93]"avo[0x96][0xfa][0xfe]7[0xd4]K[0x99][0xfa][0x91][0x6][0xb6][0xfe]x[0x90]B[0x13]w/m[0xc2][0x1e]a[kU[0xfd][0xf3][0xd4][0xa6][0xcb][0xbf][0xee][0xed][0xf]s[0x98][0x99][0xb2][0xac][0x13]"[0x9c][0xdf][0x1d][0x9][0x8f]5[0xbc]2[0xb7]p[0xe2][0xf3][0x89]-[0x8c][0xca][0x1c][0xc3]PWWy[0xde]\[0xea]j[0xc1][0xeb][0x1b]i[0xb6]`[0xac][0x17][0xd6]0Ts[0xb][0xa4][0x1c][0xa8]5[0xe5]A[0xc8]9[0xdf]`[0xdf]?[0x0][0xba]y[0x8a]:[0x1c][0x1][0x0][0x0]"
+ << "[\r][\n]"
+ << "0[\r][\n]"
+ << "[\r][\n]"
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@5d14e99e
+Connection can be kept alive indefinitely
+Get connection for route {s}->https://reqres.in:443
+Connecting to reqres.in:443
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: GET /api/users/5 HTTP/1.1
+ >> "GET /api/users/5 HTTP/1.1[\r][\n]"
+ >> "Accept: */*[\r][\n]"
+ >> "Host: reqres.in[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> GET /api/users/5 HTTP/1.1
+>> Accept: */*
+>> Host: reqres.in
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+>> Accept-Encoding: gzip,deflate
+ << "HTTP/1.1 200 OK[\r][\n]"
+ << "Date: Thu, 16 Feb 2023 15:19:19 GMT[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Transfer-Encoding: chunked[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Access-Control-Allow-Origin: *[\r][\n]"
+ << "Etag: W/"11c-fbAvBCQSZgUU6dvLRqxYG0dwUTM"[\r][\n]"
+ << "Via: 1.1 vegur[\r][\n]"
+ << "Cache-Control: max-age=14400[\r][\n]"
+ << "CF-Cache-Status: HIT[\r][\n]"
+ << "Age: 1839[\r][\n]"
+ << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=f7uLYxqvTZ%2B8KHRSyVhYfBiUY63AF6cQvD2bku74c6VlSk0txiY7W%2F4E4z%2BG2dYcLi3ckPjvt%2BXkiSuw4bcafC9YztRf6uB12%2BH5ru2IJCm9JgPqIcpo%2FHDl2g%3D%3D"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+ << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]"
+ << "Vary: Accept-Encoding[\r][\n]"
+ << "Server: cloudflare[\r][\n]"
+ << "CF-RAY: 79a742cc58ad83f3-BLR[\r][\n]"
+ << "Content-Encoding: gzip[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 200 OK
+<< HTTP/1.1 200 OK
+<< Date: Thu, 16 Feb 2023 15:19:19 GMT
+<< Content-Type: application/json; charset=utf-8
+<< Transfer-Encoding: chunked
+<< Connection: keep-alive
+<< X-Powered-By: Express
+<< Access-Control-Allow-Origin: *
+<< Etag: W/"11c-fbAvBCQSZgUU6dvLRqxYG0dwUTM"
+<< Via: 1.1 vegur
+<< Cache-Control: max-age=14400
+<< CF-Cache-Status: HIT
+<< Age: 1839
+<< Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=f7uLYxqvTZ%2B8KHRSyVhYfBiUY63AF6cQvD2bku74c6VlSk0txiY7W%2F4E4z%2BG2dYcLi3ckPjvt%2BXkiSuw4bcafC9YztRf6uB12%2BH5ru2IJCm9JgPqIcpo%2FHDl2g%3D%3D"}],"group":"cf-nel","max_age":604800}
+<< NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+<< Vary: Accept-Encoding
+<< Server: cloudflare
+<< CF-RAY: 79a742cc58ad83f3-BLR
+<< Content-Encoding: gzip
+Connection can be kept alive indefinitely
+Parsing response as: application/json; charset=utf-8
+ << "d2[\r][\n]"
+ << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3]m[0x8e][0xbb]N[0xc4]0[0x10]E[0xc5]\ZoRm[0xe3][\n]"
+ << "[0x89][0x9a]fE[0x8f][0x86]x[0x92][0xc][0xc4][0xb1]wf[0xb2] [0xad][0xf2][0xef][0x88][0x87][0xa0][0xa1][0xbd]:[0xe7][0xe8]^[0x91][0xc9][0x9][0xe9][\n]"
+ << "[0xc9]H[0xc7][0x8].$[0xb][0x12][0x86][0x99]ta[0xeb]JU[0x15][0xbb]S>+['+"FQ[0xf3][0xa7][0x95][\n]"
+ << "#[0xe1][0xfe][0x9b]C[0xc4]B[0xeb][0xc3][0x97][0x85][0x8][0xba][0x90][0x93]"avo[0x96][0xfa][0xfe]7[0xd4]K[0x99][0xfa][0x91][0x6][0xb6][0xfe]x[0x90]B[0x13]w/m[0xc2][0x1e]a[kU[0xfd][0xf3][0xd4][0xa6][0xcb][0xbf][0xee][0xed][0xf]s[0x98][0x99][0xb2][0xac][0x13]"[0x9c][0xdf][0x1d][0x9][0x8f]5[0xbc]2[0xb7]p[0xe2][0xf3][0x89]-[0x8c][0xca][0x1c][0xc3]PWWy[0xde]\[0xea]j[0xc1][0xeb][0x1b]i[0xb6]`[0xac][0x17][0xd6]0Ts[0xb][0xa4][0x1c][0xa8]5[0xe5]A[0xc8]9[0xdf]`[0xdf]?[0x0][0xba]y[0x8a]:[0x1c][0x1][0x0][0x0]"
+ << "[\r][\n]"
+ << "0[\r][\n]"
+ << "[\r][\n]"
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@6d6039df
+Connection can be kept alive indefinitely
+Get connection for route {s}->https://reqres.in:443
+Connecting to reqres.in:443
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: GET /api/users/6 HTTP/1.1
+ >> "GET /api/users/6 HTTP/1.1[\r][\n]"
+ >> "Accept: */*[\r][\n]"
+ >> "Host: reqres.in[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> GET /api/users/6 HTTP/1.1
+>> Accept: */*
+>> Host: reqres.in
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+>> Accept-Encoding: gzip,deflate
+ << "HTTP/1.1 200 OK[\r][\n]"
+ << "Date: Thu, 16 Feb 2023 15:19:19 GMT[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Transfer-Encoding: chunked[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Access-Control-Allow-Origin: *[\r][\n]"
+ << "Etag: W/"118-we7xcJocGnljhK3IAnwbs1F3VcQ"[\r][\n]"
+ << "Via: 1.1 vegur[\r][\n]"
+ << "Cache-Control: max-age=14400[\r][\n]"
+ << "CF-Cache-Status: HIT[\r][\n]"
+ << "Age: 1493[\r][\n]"
+ << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=vbwfwYDoGleO8mzH5vI7E2oEZD6U%2F%2BT6oCmtUImHOUaFsPOb8m%2FnPaVqyyLxMFwRwIMyHM4D3l65U84Ilq76kdD7DQKalHFHcy80rHW0nWZg8W6gLXTK6%2FEh3g%3D%3D"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+ << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]"
+ << "Vary: Accept-Encoding[\r][\n]"
+ << "Server: cloudflare[\r][\n]"
+ << "CF-RAY: 79a742cd1b3b3c01-BLR[\r][\n]"
+ << "Content-Encoding: gzip[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 200 OK
+<< HTTP/1.1 200 OK
+<< Date: Thu, 16 Feb 2023 15:19:19 GMT
+<< Content-Type: application/json; charset=utf-8
+<< Transfer-Encoding: chunked
+<< Connection: keep-alive
+<< X-Powered-By: Express
+<< Access-Control-Allow-Origin: *
+<< Etag: W/"118-we7xcJocGnljhK3IAnwbs1F3VcQ"
+<< Via: 1.1 vegur
+<< Cache-Control: max-age=14400
+<< CF-Cache-Status: HIT
+<< Age: 1493
+<< Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=vbwfwYDoGleO8mzH5vI7E2oEZD6U%2F%2BT6oCmtUImHOUaFsPOb8m%2FnPaVqyyLxMFwRwIMyHM4D3l65U84Ilq76kdD7DQKalHFHcy80rHW0nWZg8W6gLXTK6%2FEh3g%3D%3D"}],"group":"cf-nel","max_age":604800}
+<< NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+<< Vary: Accept-Encoding
+<< Server: cloudflare
+<< CF-RAY: 79a742cd1b3b3c01-BLR
+<< Content-Encoding: gzip
+Connection can be kept alive indefinitely
+Parsing response as: application/json; charset=utf-8
+ << "ce[\r][\n]"
+ << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3]m[0x8e]AN[0xc3]0[0x10]E[0xaf]b~[0xb7]n[0xbc][0xeb][0xc2]+[0xce][0x10][0xb1]GSg[0x92][0x1a][0xe2][0xd8][0x9d][0x99][0x14][0xaa]*wGA[0x8]6l[0xbf][0xde][0xfb]z[0xf][0xc]d[0x84][0xf8]@[0x1e][0x10]O[0x1e]\([0xcf][0x88]0[0xa1][0xc4][0xf7]N[0xa8]T}[0x16][0xbe][\n]"
+ << "k[0x97][0x17]x[0x8c]Y[0xd4]^[0x17]*[0x8c][0x88][0x97]o[\n]"
+ << "[0x1e]3[0xfd][0x8d][0xfd][0xee][0xc0][0x83]nd$[0x88][0xb8][0x98]5[0x8d]![0xfc][0xde][0x84]\[0xa6]0Rb[\r][0xa7]c.4q[0xf7][0xd6]&l[0x1e][0xba][0xb6]V[0xc5][0xf6][0xa0]U[0xe6][0xdd][0xc3][0xf]s[0xbc]0[\r]y[0x99][0xe0]a[0xfc]i{Mu[0xef][0xcc][0xcd][0xf5]|[0xed]Y[0xdd]([0xcc][0xde][0xa5][0xba][0x98][0xe4][0xf3]j[0xb9].[0xea][0xac]~[0x90][0xc][0xea][0x94][0xe5][0xc6][0xe2]RUSG[0xc2][0x8e]Z[0x13]N[0x99][0x8c][0x87]'l[0xdb][0x17]8[0x87][0x83]j[0x18][0x1][0x0][0x0]"
+ << "[\r][\n]"
+ << "0[\r][\n]"
+ << "[\r][\n]"
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@9281d19
+Connection can be kept alive indefinitely
+Get connection for route {s}->https://reqres.in:443
+Connecting to reqres.in:443
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: GET /api/users/6 HTTP/1.1
+ >> "GET /api/users/6 HTTP/1.1[\r][\n]"
+ >> "Accept: */*[\r][\n]"
+ >> "Host: reqres.in[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> GET /api/users/6 HTTP/1.1
+>> Accept: */*
+>> Host: reqres.in
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+>> Accept-Encoding: gzip,deflate
+ << "HTTP/1.1 200 OK[\r][\n]"
+ << "Date: Thu, 16 Feb 2023 15:19:19 GMT[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Transfer-Encoding: chunked[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Access-Control-Allow-Origin: *[\r][\n]"
+ << "Etag: W/"118-we7xcJocGnljhK3IAnwbs1F3VcQ"[\r][\n]"
+ << "Via: 1.1 vegur[\r][\n]"
+ << "Cache-Control: max-age=14400[\r][\n]"
+ << "CF-Cache-Status: HIT[\r][\n]"
+ << "Age: 1493[\r][\n]"
+ << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=qCi15ww8xwi6KDVYrW8t4GsjBI1l2UbRlucUREtAjo6%2BO0K9bNnZfeQnu0WfPj0bfOg9aS7nu2gNlT%2BtZMYy7UdUKCK%2BPsw0dDVM5rHcqrr8ow%2FZAX7fE1fxmA%3D%3D"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+ << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]"
+ << "Vary: Accept-Encoding[\r][\n]"
+ << "Server: cloudflare[\r][\n]"
+ << "CF-RAY: 79a742cd8bcc3c01-BLR[\r][\n]"
+ << "Content-Encoding: gzip[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 200 OK
+<< HTTP/1.1 200 OK
+<< Date: Thu, 16 Feb 2023 15:19:19 GMT
+<< Content-Type: application/json; charset=utf-8
+<< Transfer-Encoding: chunked
+<< Connection: keep-alive
+<< X-Powered-By: Express
+<< Access-Control-Allow-Origin: *
+<< Etag: W/"118-we7xcJocGnljhK3IAnwbs1F3VcQ"
+<< Via: 1.1 vegur
+<< Cache-Control: max-age=14400
+<< CF-Cache-Status: HIT
+<< Age: 1493
+<< Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=qCi15ww8xwi6KDVYrW8t4GsjBI1l2UbRlucUREtAjo6%2BO0K9bNnZfeQnu0WfPj0bfOg9aS7nu2gNlT%2BtZMYy7UdUKCK%2BPsw0dDVM5rHcqrr8ow%2FZAX7fE1fxmA%3D%3D"}],"group":"cf-nel","max_age":604800}
+<< NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+<< Vary: Accept-Encoding
+<< Server: cloudflare
+<< CF-RAY: 79a742cd8bcc3c01-BLR
+<< Content-Encoding: gzip
+Connection can be kept alive indefinitely
+Parsing response as: application/json; charset=utf-8
+ << "ce[\r][\n]"
+ << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3]m[0x8e]AN[0xc3]0[0x10]E[0xaf]b~[0xb7]n[0xbc][0xeb][0xc2]+[0xce][0x10][0xb1]GSg[0x92][0x1a][0xe2][0xd8][0x9d][0x99][0x14][0xaa]*wGA[0x8]6l[0xbf][0xde][0xfb]z[0xf][0xc]d[0x84][0xf8]@[0x1e][0x10]O[0x1e]\([0xcf][0x88]0[0xa1][0xc4][0xf7]N[0xa8]T}[0x16][0xbe][\n]"
+ << "k[0x97][0x17]x[0x8c]Y[0xd4]^[0x17]*[0x8c][0x88][0x97]o[\n]"
+ << "[0x1e]3[0xfd][0x8d][0xfd][0xee][0xc0][0x83]nd$[0x88][0xb8][0x98]5[0x8d]![0xfc][0xde][0x84]\[0xa6]0Rb[\r][0xa7]c.4q[0xf7][0xd6]&l[0x1e][0xba][0xb6]V[0xc5][0xf6][0xa0]U[0xe6][0xdd][0xc3][0xf]s[0xbc]0[\r]y[0x99][0xe0]a[0xfc]i{Mu[0xef][0xcc][0xcd][0xf5]|[0xed]Y[0xdd]([0xcc][0xde][0xa5][0xba][0x98][0xe4][0xf3]j[0xb9].[0xea][0xac]~[0x90][0xc][0xea][0x94][0xe5][0xc6][0xe2]RUSG[0xc2][0x8e]Z[0x13]N[0x99][0x8c][0x87]'l[0xdb][0x17]8[0x87][0x83]j[0x18][0x1][0x0][0x0]"
+ << "[\r][\n]"
+ << "0[\r][\n]"
+ << "[\r][\n]"
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@58601e7a
+Connection can be kept alive indefinitely
+Get connection for route {s}->https://reqres.in:443
+Connecting to reqres.in:443
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: GET /api/users/6 HTTP/1.1
+ >> "GET /api/users/6 HTTP/1.1[\r][\n]"
+ >> "Accept: */*[\r][\n]"
+ >> "Host: reqres.in[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> GET /api/users/6 HTTP/1.1
+>> Accept: */*
+>> Host: reqres.in
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+>> Accept-Encoding: gzip,deflate
+ << "HTTP/1.1 200 OK[\r][\n]"
+ << "Date: Thu, 16 Feb 2023 15:19:20 GMT[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Transfer-Encoding: chunked[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Access-Control-Allow-Origin: *[\r][\n]"
+ << "Etag: W/"118-we7xcJocGnljhK3IAnwbs1F3VcQ"[\r][\n]"
+ << "Via: 1.1 vegur[\r][\n]"
+ << "Cache-Control: max-age=14400[\r][\n]"
+ << "CF-Cache-Status: HIT[\r][\n]"
+ << "Age: 1493[\r][\n]"
+ << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=4CosJ6rfF1EV0D%2FAAEEyOGWD0Z4RZVdp%2F9dZECoERdHYaMV0btEwbd%2Fv%2BKjvvuBlVPPORwl08FS8kFUO%2FCbrvzrA9ClnqT0GroEvzhjzSMDNi%2FjZQsVg1RapCw%3D%3D"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+ << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]"
+ << "Vary: Accept-Encoding[\r][\n]"
+ << "Server: cloudflare[\r][\n]"
+ << "CF-RAY: 79a742cde8673c00-BLR[\r][\n]"
+ << "Content-Encoding: gzip[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 200 OK
+<< HTTP/1.1 200 OK
+<< Date: Thu, 16 Feb 2023 15:19:20 GMT
+<< Content-Type: application/json; charset=utf-8
+<< Transfer-Encoding: chunked
+<< Connection: keep-alive
+<< X-Powered-By: Express
+<< Access-Control-Allow-Origin: *
+<< Etag: W/"118-we7xcJocGnljhK3IAnwbs1F3VcQ"
+<< Via: 1.1 vegur
+<< Cache-Control: max-age=14400
+<< CF-Cache-Status: HIT
+<< Age: 1493
+<< Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=4CosJ6rfF1EV0D%2FAAEEyOGWD0Z4RZVdp%2F9dZECoERdHYaMV0btEwbd%2Fv%2BKjvvuBlVPPORwl08FS8kFUO%2FCbrvzrA9ClnqT0GroEvzhjzSMDNi%2FjZQsVg1RapCw%3D%3D"}],"group":"cf-nel","max_age":604800}
+<< NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+<< Vary: Accept-Encoding
+<< Server: cloudflare
+<< CF-RAY: 79a742cde8673c00-BLR
+<< Content-Encoding: gzip
+Connection can be kept alive indefinitely
+Parsing response as: application/json; charset=utf-8
+ << "ce[\r][\n]"
+ << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3]m[0x8e]AN[0xc3]0[0x10]E[0xaf]b~[0xb7]n[0xbc][0xeb][0xc2]+[0xce][0x10][0xb1]GSg[0x92][0x1a][0xe2][0xd8][0x9d][0x99][0x14][0xaa]*wGA[0x8]6l[0xbf][0xde][0xfb]z[0xf][0xc]d[0x84][0xf8]@[0x1e][0x10]O[0x1e]\([0xcf][0x88]0[0xa1][0xc4][0xf7]N[0xa8]T}[0x16][0xbe][\n]"
+ << "k[0x97][0x17]x[0x8c]Y[0xd4]^[0x17]*[0x8c][0x88][0x97]o[\n]"
+ << "[0x1e]3[0xfd][0x8d][0xfd][0xee][0xc0][0x83]nd$[0x88][0xb8][0x98]5[0x8d]![0xfc][0xde][0x84]\[0xa6]0Rb[\r][0xa7]c.4q[0xf7][0xd6]&l[0x1e][0xba][0xb6]V[0xc5][0xf6][0xa0]U[0xe6][0xdd][0xc3][0xf]s[0xbc]0[\r]y[0x99][0xe0]a[0xfc]i{Mu[0xef][0xcc][0xcd][0xf5]|[0xed]Y[0xdd]([0xcc][0xde][0xa5][0xba][0x98][0xe4][0xf3]j[0xb9].[0xea][0xac]~[0x90][0xc][0xea][0x94][0xe5][0xc6][0xe2]RUSG[0xc2][0x8e]Z[0x13]N[0x99][0x8c][0x87]'l[0xdb][0x17]8[0x87][0x83]j[0x18][0x1][0x0][0x0]"
+ << "[\r][\n]"
+ << "0[\r][\n]"
+ << "[\r][\n]"
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@77ea806f
+Connection can be kept alive indefinitely
+Connection 0.0.0.0:60774<->172.67.73.173:443 closed
+Connection 0.0.0.0:60775<->172.67.73.173:443 closed
+Connection 0.0.0.0:60776<->172.67.73.173:443 closed
+Connection 0.0.0.0:60781<->172.67.73.173:443 closed
+Connection 0.0.0.0:60782<->172.67.73.173:443 closed
+Connection 0.0.0.0:60778<->172.67.73.173:443 closed
+Connection 0.0.0.0:60779<->172.67.73.173:443 closed
+Connection 0.0.0.0:60780<->172.67.73.173:443 closed
+Connection 0.0.0.0:60777<->172.67.73.173:443 closed
+Test Login Passed
+Browser Closed
+Browser started
+Get connection for route {s}->https://reqres.in:443
+Connecting to reqres.in:443
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: GET /api/users?page=1 HTTP/1.1
+ >> "GET /api/users?page=1 HTTP/1.1[\r][\n]"
+ >> "Accept: */*[\r][\n]"
+ >> "Host: reqres.in[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> GET /api/users?page=1 HTTP/1.1
+>> Accept: */*
+>> Host: reqres.in
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+>> Accept-Encoding: gzip,deflate
+ << "HTTP/1.1 200 OK[\r][\n]"
+ << "Date: Thu, 16 Feb 2023 15:20:08 GMT[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Transfer-Encoding: chunked[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Access-Control-Allow-Origin: *[\r][\n]"
+ << "Etag: W/"3e4-2RLXvr5wTg9YQ6aH95CkYoFNuO8"[\r][\n]"
+ << "Via: 1.1 vegur[\r][\n]"
+ << "Cache-Control: max-age=14400[\r][\n]"
+ << "CF-Cache-Status: HIT[\r][\n]"
+ << "Age: 1547[\r][\n]"
+ << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=0Bru4LjeNrslUFQtENzbZRonbzEt4PKz5KY5PyKer7fnXrQlIdT%2BejDWyJfbHFmWAv%2BNPihEp8z90B9dSp9rukgCN2Aker3Bhab8mYXIyEC6DiUtznZyKGM%2F1w%3D%3D"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+ << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]"
+ << "Vary: Accept-Encoding[\r][\n]"
+ << "Server: cloudflare[\r][\n]"
+ << "CF-RAY: 79a743fe0d993c0d-BLR[\r][\n]"
+ << "Content-Encoding: gzip[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 200 OK
+<< HTTP/1.1 200 OK
+<< Date: Thu, 16 Feb 2023 15:20:08 GMT
+<< Content-Type: application/json; charset=utf-8
+<< Transfer-Encoding: chunked
+<< Connection: keep-alive
+<< X-Powered-By: Express
+<< Access-Control-Allow-Origin: *
+<< Etag: W/"3e4-2RLXvr5wTg9YQ6aH95CkYoFNuO8"
+<< Via: 1.1 vegur
+<< Cache-Control: max-age=14400
+<< CF-Cache-Status: HIT
+<< Age: 1547
+<< Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=0Bru4LjeNrslUFQtENzbZRonbzEt4PKz5KY5PyKer7fnXrQlIdT%2BejDWyJfbHFmWAv%2BNPihEp8z90B9dSp9rukgCN2Aker3Bhab8mYXIyEC6DiUtznZyKGM%2F1w%3D%3D"}],"group":"cf-nel","max_age":604800}
+<< NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+<< Vary: Accept-Encoding
+<< Server: cloudflare
+<< CF-RAY: 79a743fe0d993c0d-BLR
+<< Content-Encoding: gzip
+Connection can be kept alive indefinitely
+Parsing response as: application/json; charset=utf-8
+ << "170[\r][\n]"
+ << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0x8d][0xd1]MK[0xc4]0[0x10][0x6][0xe0][0xbf][0x12][0xc7]kl[0xd9][0xf][0xf7][0x90][0x93]([0xa2][0x8]^[0x16][0xc1][0x83][0x88][0x8c][0xed]l[0x1b]m[0x9a]8[0x99][0xed]*[0xcb][0xfe]w[0xd9][0xae]X)][0xe9]-[0x1f][0xef][0x9b]y [[0x8]X[0x10][0x98][0x89][0x86]@[0xfc]r[0xd8],4[0x88][0x17][0xac][0xc0]L[0xa6]?[0xcb][0xf6]&[0x82][0x99]j[0xc8]Q[0x10][0xcc][0xd3][0x16]l[0xde][0xf6][0xc8][0xa1][0xad][0xc0]@A[0x9e][0xb]J^[0xab][0xb5][0x94][0x17]L[0x1f]L1[0xb1]5hXY[0x8e][0xf2]R[0xa3]#0p[0xd3][0xa6]@C[0x85][0xdd][0xe1][0xe5][0xbe][0x3][0x1a][0xb0]AA[0x6][0x3][0xa5]H[0x88]&M[0x9f]I[0xad]+[0xd2][0x15]f[0x14][0xd3][0xc9][0x99]uXP[0xf2][0x16][\n]"
+ << "[0xd8][0xe9][0x3]c[0xda]1[0xde][0xb0]&I6[0x84][\r][0xf1]q[0xc6][0xdd]>[0xd5]S<[0xb6][0x9d][0xb1][0x8c][0xe9][0x0]c[0xd6]1[0xc8]9L6[0xbe].[0x8e][0x1b][0xae][0x9d][0xc3]>[0xc1][0xd7][0xc5]X[0xc0]l[0x0]0[0xff][0x3]h()}%[0xff][0xcc]o[0xfa][0xff]p[0xeb]+[0x19];~>0[0xfe][0xbc][0x1b][0x9f][0x95][0xc8][0x15][0xc5][0xc4]yf[0x1b][0x8f]#[0xae][0xe][0xb9][0x1e][0xe4][0xbe]m[0x8d][0xa5][0x9c][0xf]P[0x16][0x1d]E[0x18]3[0xfa]J[0x18][0x9d][0xff][0x7][0xf2][0xd0][0xa6]z[0x8e][0xe5][0xbe]3[0x96][0xb1][0xf8][0xcb]x[0xd6][0x10][0xd7]!x[0x16]0[Xs5X>[0xfd][0xc9][0x9c][0x95][0x84][0xb9]m[0xff]^[0xe8]S[0xf6][0x1c][0xaf][0xde][0x89][0x82]Z[0xd2][0xc7][0x92][0xa2]Z1[0x91]V[0x99][0xaf][0x85][0xed][0xeb]Z[0xac][0xaf][0xa3][0x12][0xbf]A[0xce][0xa3][0x8a][0xc4][\r][0xb1][0xca]|[0x94][0xa8][0x90]Ia[0x8]L[0x99]E[0xa1][0xfc][0x4]v[0xbb]o[0xcc]?[0x16][0xce][0xe4][0x3][0x0][0x0]"
+ << "[\r][\n]"
+ << "0[\r][\n]"
+ << "[\r][\n]"
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@797c3c3b
+Connection can be kept alive indefinitely
+Getting response Body
+Getting data object
+Get connection for route {s}->https://reqres.in:443
+Connecting to reqres.in:443
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: GET /api/users/1 HTTP/1.1
+ >> "GET /api/users/1 HTTP/1.1[\r][\n]"
+ >> "Accept: */*[\r][\n]"
+ >> "Host: reqres.in[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> GET /api/users/1 HTTP/1.1
+>> Accept: */*
+>> Host: reqres.in
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+>> Accept-Encoding: gzip,deflate
+ << "HTTP/1.1 200 OK[\r][\n]"
+ << "Date: Thu, 16 Feb 2023 15:20:09 GMT[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Transfer-Encoding: chunked[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Access-Control-Allow-Origin: *[\r][\n]"
+ << "Etag: W/"118-P3iKcVpIgCj9HqYeOOrGLX8qJVc"[\r][\n]"
+ << "Via: 1.1 vegur[\r][\n]"
+ << "Cache-Control: max-age=14400[\r][\n]"
+ << "CF-Cache-Status: HIT[\r][\n]"
+ << "Age: 1546[\r][\n]"
+ << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=xVpijFlPspw31PD5SWcDod6nqvLGD5BEc9xrZ3hi2bR8U6nVVZQSiLrnp6Kf6k89OWmSNKCMOC7GanXcRof7Q4T8KzW%2FJdQctz5dI3dEBjvWa85MNrUq7OLgJw%3D%3D"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+ << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]"
+ << "Vary: Accept-Encoding[\r][\n]"
+ << "Server: cloudflare[\r][\n]"
+ << "CF-RAY: 79a744024e833c06-BLR[\r][\n]"
+ << "Content-Encoding: gzip[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 200 OK
+<< HTTP/1.1 200 OK
+<< Date: Thu, 16 Feb 2023 15:20:09 GMT
+<< Content-Type: application/json; charset=utf-8
+<< Transfer-Encoding: chunked
+<< Connection: keep-alive
+<< X-Powered-By: Express
+<< Access-Control-Allow-Origin: *
+<< Etag: W/"118-P3iKcVpIgCj9HqYeOOrGLX8qJVc"
+<< Via: 1.1 vegur
+<< Cache-Control: max-age=14400
+<< CF-Cache-Status: HIT
+<< Age: 1546
+<< Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=xVpijFlPspw31PD5SWcDod6nqvLGD5BEc9xrZ3hi2bR8U6nVVZQSiLrnp6Kf6k89OWmSNKCMOC7GanXcRof7Q4T8KzW%2FJdQctz5dI3dEBjvWa85MNrUq7OLgJw%3D%3D"}],"group":"cf-nel","max_age":604800}
+<< NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+<< Vary: Accept-Encoding
+<< Server: cloudflare
+<< CF-RAY: 79a744024e833c06-BLR
+<< Content-Encoding: gzip
+Connection can be kept alive indefinitely
+Parsing response as: application/json; charset=utf-8
+ << "d1[\r][\n]"
+ << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3]m[0x8e][0xc1]N[0xc3]0[0x10][0x5][0xc5]<[0xae]n[0xac]^}B\[0xb8]W[0xdc][0xab]m[0xbc]q[0xc]I[0xec][0xee]nJ[0xa5]*[0xff]^[0x15]![0xb8]p}[0x9a][0x19][0xbd][0x1b][0x12][0x19]![0xde]P[0x12][0xe2][0xde][0x83]g*[0x13]"2W[0xc9][0xdc][0x9d][0xa6][0xd5][0xc6][0x17][0xe1][0xb3][0xb0]ve[0x81][0xc7]PD[0xed][0xb8][0xd0][0xcc][0x88]x[0xfb][0xa6][0xe0]1[0xd1][0xdf][0xf8][0xfa]p[0xe0]A[0x17]2[0x12]D[0x8c]fMc[0x8][0xbf][0x99]P[0xe6][0x1c][0x6][0xea]Y[0xc3]~Wf[0xca][0xdc]}[0xb4][0x8c][0xcd]C[0xd7][0xd6][0xaa][0xd8][0xe3][0xd0]*[0xd3][0xbf][0xee][0xf3][0xf][0xb3][0x1b][0x99]RY2<[0x8c][0xaf][0x86][0x88][0xf7][0xea]>[0x99][0x9b];[0xf0][0xf9][0xc0][0xea][0x6]a[0xf6][0xae][0xaf][0x8b]I9[0xad]V[0xea][0xa2][0xce][0xea][0x17]IR[0xa7],[0x17][0x16][0xd7]W5u$[0xec][0xa8]5[0xe1][0xbe][0x90]qz[0xc2][0xb6][0xdd][0x1][0x94]J[0xbd][0xbc][0x18][0x1][0x0][0x0]"
+ << "[\r][\n]"
+ << "0[\r][\n]"
+ << "[\r][\n]"
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@1039bfc4
+Connection can be kept alive indefinitely
+Get connection for route {s}->https://reqres.in:443
+Connecting to reqres.in:443
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: GET /api/users/1 HTTP/1.1
+ >> "GET /api/users/1 HTTP/1.1[\r][\n]"
+ >> "Accept: */*[\r][\n]"
+ >> "Host: reqres.in[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> GET /api/users/1 HTTP/1.1
+>> Accept: */*
+>> Host: reqres.in
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+>> Accept-Encoding: gzip,deflate
+ << "HTTP/1.1 200 OK[\r][\n]"
+ << "Date: Thu, 16 Feb 2023 15:20:09 GMT[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Transfer-Encoding: chunked[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Access-Control-Allow-Origin: *[\r][\n]"
+ << "Etag: W/"118-P3iKcVpIgCj9HqYeOOrGLX8qJVc"[\r][\n]"
+ << "Via: 1.1 vegur[\r][\n]"
+ << "Cache-Control: max-age=14400[\r][\n]"
+ << "CF-Cache-Status: HIT[\r][\n]"
+ << "Age: 1546[\r][\n]"
+ << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=7YGwyKz68JadXz%2BKscpDdgwVOhqzhETGCA2hDKZOBg34QQ0JzLWXvZ7ojrSp90f%2BBUu18HKaDlUdZlfSAPwY06DvyHKGO7ZC1IhBPkvSM5%2F7EDe3M5sboX11Eg%3D%3D"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+ << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]"
+ << "Vary: Accept-Encoding[\r][\n]"
+ << "Server: cloudflare[\r][\n]"
+ << "CF-RAY: 79a74402ebef3c12-BLR[\r][\n]"
+ << "Content-Encoding: gzip[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 200 OK
+<< HTTP/1.1 200 OK
+<< Date: Thu, 16 Feb 2023 15:20:09 GMT
+<< Content-Type: application/json; charset=utf-8
+<< Transfer-Encoding: chunked
+<< Connection: keep-alive
+<< X-Powered-By: Express
+<< Access-Control-Allow-Origin: *
+<< Etag: W/"118-P3iKcVpIgCj9HqYeOOrGLX8qJVc"
+<< Via: 1.1 vegur
+<< Cache-Control: max-age=14400
+<< CF-Cache-Status: HIT
+<< Age: 1546
+<< Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=7YGwyKz68JadXz%2BKscpDdgwVOhqzhETGCA2hDKZOBg34QQ0JzLWXvZ7ojrSp90f%2BBUu18HKaDlUdZlfSAPwY06DvyHKGO7ZC1IhBPkvSM5%2F7EDe3M5sboX11Eg%3D%3D"}],"group":"cf-nel","max_age":604800}
+<< NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+<< Vary: Accept-Encoding
+<< Server: cloudflare
+<< CF-RAY: 79a74402ebef3c12-BLR
+<< Content-Encoding: gzip
+Connection can be kept alive indefinitely
+Parsing response as: application/json; charset=utf-8
+ << "d1[\r][\n]"
+ << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3]m[0x8e][0xc1]N[0xc3]0[0x10][0x5][0xc5]<[0xae]n[0xac]^}B\[0xb8]W[0xdc][0xab]m[0xbc]q[0xc]I[0xec][0xee]nJ[0xa5]*[0xff]^[0x15]![0xb8]p}[0x9a][0x19][0xbd][0x1b][0x12][0x19]![0xde]P[0x12][0xe2][0xde][0x83]g*[0x13]"2W[0xc9][0xdc][0x9d][0xa6][0xd5][0xc6][0x17][0xe1][0xb3][0xb0]ve[0x81][0xc7]PD[0xed][0xb8][0xd0][0xcc][0x88]x[0xfb][0xa6][0xe0]1[0xd1][0xdf][0xf8][0xfa]p[0xe0]A[0x17]2[0x12]D[0x8c]fMc[0x8][0xbf][0x99]P[0xe6][0x1c][0x6][0xea]Y[0xc3]~Wf[0xca][0xdc]}[0xb4][0x8c][0xcd]C[0xd7][0xd6][0xaa][0xd8][0xe3][0xd0]*[0xd3][0xbf][0xee][0xf3][0xf][0xb3][0x1b][0x99]RY2<[0x8c][0xaf][0x86][0x88][0xf7][0xea]>[0x99][0x9b];[0xf0][0xf9][0xc0][0xea][0x6]a[0xf6][0xae][0xaf][0x8b]I9[0xad]V[0xea][0xa2][0xce][0xea][0x17]IR[0xa7],[0x17][0x16][0xd7]W5u$[0xec][0xa8]5[0xe1][0xbe][0x90]qz[0xc2][0xb6][0xdd][0x1][0x94]J[0xbd][0xbc][0x18][0x1][0x0][0x0]"
+ << "[\r][\n]"
+ << "0[\r][\n]"
+ << "[\r][\n]"
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@373052b5
+Connection can be kept alive indefinitely
+Get connection for route {s}->https://reqres.in:443
+Connecting to reqres.in:443
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: GET /api/users/1 HTTP/1.1
+ >> "GET /api/users/1 HTTP/1.1[\r][\n]"
+ >> "Accept: */*[\r][\n]"
+ >> "Host: reqres.in[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> GET /api/users/1 HTTP/1.1
+>> Accept: */*
+>> Host: reqres.in
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+>> Accept-Encoding: gzip,deflate
+ << "HTTP/1.1 200 OK[\r][\n]"
+ << "Date: Thu, 16 Feb 2023 15:20:09 GMT[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Transfer-Encoding: chunked[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Access-Control-Allow-Origin: *[\r][\n]"
+ << "Etag: W/"118-P3iKcVpIgCj9HqYeOOrGLX8qJVc"[\r][\n]"
+ << "Via: 1.1 vegur[\r][\n]"
+ << "Cache-Control: max-age=14400[\r][\n]"
+ << "CF-Cache-Status: HIT[\r][\n]"
+ << "Age: 1546[\r][\n]"
+ << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Bi4rI1pOK%2B36pJKmBe%2B0jrj9gPWyknjVHhBm%2BM2Fu44Jl4qWwbHr69TNs171ygt4Tf2OM%2BqNEtt8AFfFgE3tdVzW03OZMMsrbR5VfBjiRgtR9EvyTNYOEzdDgw%3D%3D"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+ << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]"
+ << "Vary: Accept-Encoding[\r][\n]"
+ << "Server: cloudflare[\r][\n]"
+ << "CF-RAY: 79a744038b5b3c13-BLR[\r][\n]"
+ << "Content-Encoding: gzip[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 200 OK
+<< HTTP/1.1 200 OK
+<< Date: Thu, 16 Feb 2023 15:20:09 GMT
+<< Content-Type: application/json; charset=utf-8
+<< Transfer-Encoding: chunked
+<< Connection: keep-alive
+<< X-Powered-By: Express
+<< Access-Control-Allow-Origin: *
+<< Etag: W/"118-P3iKcVpIgCj9HqYeOOrGLX8qJVc"
+<< Via: 1.1 vegur
+<< Cache-Control: max-age=14400
+<< CF-Cache-Status: HIT
+<< Age: 1546
+<< Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Bi4rI1pOK%2B36pJKmBe%2B0jrj9gPWyknjVHhBm%2BM2Fu44Jl4qWwbHr69TNs171ygt4Tf2OM%2BqNEtt8AFfFgE3tdVzW03OZMMsrbR5VfBjiRgtR9EvyTNYOEzdDgw%3D%3D"}],"group":"cf-nel","max_age":604800}
+<< NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+<< Vary: Accept-Encoding
+<< Server: cloudflare
+<< CF-RAY: 79a744038b5b3c13-BLR
+<< Content-Encoding: gzip
+Connection can be kept alive indefinitely
+Parsing response as: application/json; charset=utf-8
+ << "d1[\r][\n]"
+ << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3]m[0x8e][0xc1]N[0xc3]0[0x10][0x5][0xc5]<[0xae]n[0xac]^}B\[0xb8]W[0xdc][0xab]m[0xbc]q[0xc]I[0xec][0xee]nJ[0xa5]*[0xff]^[0x15]![0xb8]p}[0x9a][0x19][0xbd][0x1b][0x12][0x19]![0xde]P[0x12][0xe2][0xde][0x83]g*[0x13]"2W[0xc9][0xdc][0x9d][0xa6][0xd5][0xc6][0x17][0xe1][0xb3][0xb0]ve[0x81][0xc7]PD[0xed][0xb8][0xd0][0xcc][0x88]x[0xfb][0xa6][0xe0]1[0xd1][0xdf][0xf8][0xfa]p[0xe0]A[0x17]2[0x12]D[0x8c]fMc[0x8][0xbf][0x99]P[0xe6][0x1c][0x6][0xea]Y[0xc3]~Wf[0xca][0xdc]}[0xb4][0x8c][0xcd]C[0xd7][0xd6][0xaa][0xd8][0xe3][0xd0]*[0xd3][0xbf][0xee][0xf3][0xf][0xb3][0x1b][0x99]RY2<[0x8c][0xaf][0x86][0x88][0xf7][0xea]>[0x99][0x9b];[0xf0][0xf9][0xc0][0xea][0x6]a[0xf6][0xae][0xaf][0x8b]I9[0xad]V[0xea][0xa2][0xce][0xea][0x17]IR[0xa7],[0x17][0x16][0xd7]W5u$[0xec][0xa8]5[0xe1][0xbe][0x90]qz[0xc2][0xb6][0xdd][0x1][0x94]J[0xbd][0xbc][0x18][0x1][0x0][0x0]"
+ << "[\r][\n]"
+ << "0[\r][\n]"
+ << "[\r][\n]"
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@23c767e6
+Connection can be kept alive indefinitely
+Get connection for route {s}->https://reqres.in:443
+Connecting to reqres.in:443
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: GET /api/users/2 HTTP/1.1
+ >> "GET /api/users/2 HTTP/1.1[\r][\n]"
+ >> "Accept: */*[\r][\n]"
+ >> "Host: reqres.in[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> GET /api/users/2 HTTP/1.1
+>> Accept: */*
+>> Host: reqres.in
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+>> Accept-Encoding: gzip,deflate
+ << "HTTP/1.1 200 OK[\r][\n]"
+ << "Date: Thu, 16 Feb 2023 15:20:09 GMT[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Transfer-Encoding: chunked[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Access-Control-Allow-Origin: *[\r][\n]"
+ << "Etag: W/"118-pbdwwFo9SKNhD3Lx5iHJyngpq00"[\r][\n]"
+ << "Via: 1.1 vegur[\r][\n]"
+ << "Cache-Control: max-age=14400[\r][\n]"
+ << "CF-Cache-Status: HIT[\r][\n]"
+ << "Age: 2385[\r][\n]"
+ << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=pWkAAEYcylyag8T%2ByFJ0rGYyp3Tw4emGUII3XkP5TAjbLpP8MHnuTAfglrdGa1EUPbzOS5vF0me82oDeUkEcpipOtJ%2F1gvKVn2G6GscMkOrmo2FCXaGDFbgPMA%3D%3D"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+ << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]"
+ << "Vary: Accept-Encoding[\r][\n]"
+ << "Server: cloudflare[\r][\n]"
+ << "CF-RAY: 79a7440458ba83f3-BLR[\r][\n]"
+ << "Content-Encoding: gzip[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 200 OK
+<< HTTP/1.1 200 OK
+<< Date: Thu, 16 Feb 2023 15:20:09 GMT
+<< Content-Type: application/json; charset=utf-8
+<< Transfer-Encoding: chunked
+<< Connection: keep-alive
+<< X-Powered-By: Express
+<< Access-Control-Allow-Origin: *
+<< Etag: W/"118-pbdwwFo9SKNhD3Lx5iHJyngpq00"
+<< Via: 1.1 vegur
+<< Cache-Control: max-age=14400
+<< CF-Cache-Status: HIT
+<< Age: 2385
+<< Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=pWkAAEYcylyag8T%2ByFJ0rGYyp3Tw4emGUII3XkP5TAjbLpP8MHnuTAfglrdGa1EUPbzOS5vF0me82oDeUkEcpipOtJ%2F1gvKVn2G6GscMkOrmo2FCXaGDFbgPMA%3D%3D"}],"group":"cf-nel","max_age":604800}
+<< NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+<< Vary: Accept-Encoding
+<< Server: cloudflare
+<< CF-RAY: 79a7440458ba83f3-BLR
+<< Content-Encoding: gzip
+Connection can be kept alive indefinitely
+Parsing response as: application/json; charset=utf-8
+ << "d0[\r][\n]"
+ << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3]m[0x8e][0xb1]j[0xc3]0[0x14]EE[0xbd]Y[0x15][0x1b]2j[0xea][0xdc]1[0x14]:[0x96]W[0xfb][0xda]QjK[0xca][0xd3][0xb3][0x13][0x8][0xfe][0xf7][0x92]R[0xda][0xa5][0xeb][0xe5][0x9c][0xc3][0xbd][0xa3][0x17][0x13][0x84];b[0x8f]p[0xf0][0xe0],qB[0xc0]Y[0x12][0xad][0xb9]RV[0xea][0xb3][0xf2][0xa2][0xac]ML[0xf0][0x18][0xa2]V{O2[0x13][0x1]/[0xf][\n]"
+ << "[0x1e][0x93][0xfc]mo[0xdf][0xe]<d[0x15][0x13]E[0xc0][0xc9][0xac][0xd4][0xd0][0xb6][0xbf][0x99]6[0xce]c;H[0xc7][0xda][0x1e][0xf6]q[0x96][0x91][0xcd][0xb9][0x8c][0xd8]<[0xea]RJV{[0x1c]Zt[0xfa][0xd7][0xdd][0xfd]0[0xfb][0x13][0xa5][0x8f]i[0x84][0x87][0xf1]f[0x8]x[0xcd][0xee][0x93],[0xee][0xc8][0xcb][0x91][0xd5][\r]Jz[0xd7][0xe5]d[0x1a]?[0x16][0x8b]9Ug[0xf9]*[0xda]WW[0xa9]+[0xd5]u[0xb9]Zu[0xa2]tR[0x8a][0xb2][0x8b]b[0xec][0x9f][0xb0]m_[0xb][0x8c][0xc5][0xb5][0x18][0x1][0x0][0x0]"
+ << "[\r][\n]"
+ << "0[\r][\n]"
+ << "[\r][\n]"
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@7bbcf6f0
+Connection can be kept alive indefinitely
+Get connection for route {s}->https://reqres.in:443
+Connecting to reqres.in:443
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: GET /api/users/2 HTTP/1.1
+ >> "GET /api/users/2 HTTP/1.1[\r][\n]"
+ >> "Accept: */*[\r][\n]"
+ >> "Host: reqres.in[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> GET /api/users/2 HTTP/1.1
+>> Accept: */*
+>> Host: reqres.in
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+>> Accept-Encoding: gzip,deflate
+ << "HTTP/1.1 200 OK[\r][\n]"
+ << "Date: Thu, 16 Feb 2023 15:20:09 GMT[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Transfer-Encoding: chunked[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Access-Control-Allow-Origin: *[\r][\n]"
+ << "Etag: W/"118-pbdwwFo9SKNhD3Lx5iHJyngpq00"[\r][\n]"
+ << "Via: 1.1 vegur[\r][\n]"
+ << "Cache-Control: max-age=14400[\r][\n]"
+ << "CF-Cache-Status: HIT[\r][\n]"
+ << "Age: 2385[\r][\n]"
+ << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=VSPuRBAue38TeD1zl8RUy7foAjsVdzTEOaT%2BlBIJnh23VYPRDYUZiJ8kIhjMtGpQ%2FPtG0cpk5UC46VM0DsKAnIYekz70%2Fdny3LIcLr22PQ3h8DXi%2B3cHqWRSRg%3D%3D"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+ << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]"
+ << "Vary: Accept-Encoding[\r][\n]"
+ << "Server: cloudflare[\r][\n]"
+ << "CF-RAY: 79a74404d9e23c01-BLR[\r][\n]"
+ << "Content-Encoding: gzip[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 200 OK
+<< HTTP/1.1 200 OK
+<< Date: Thu, 16 Feb 2023 15:20:09 GMT
+<< Content-Type: application/json; charset=utf-8
+<< Transfer-Encoding: chunked
+<< Connection: keep-alive
+<< X-Powered-By: Express
+<< Access-Control-Allow-Origin: *
+<< Etag: W/"118-pbdwwFo9SKNhD3Lx5iHJyngpq00"
+<< Via: 1.1 vegur
+<< Cache-Control: max-age=14400
+<< CF-Cache-Status: HIT
+<< Age: 2385
+<< Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=VSPuRBAue38TeD1zl8RUy7foAjsVdzTEOaT%2BlBIJnh23VYPRDYUZiJ8kIhjMtGpQ%2FPtG0cpk5UC46VM0DsKAnIYekz70%2Fdny3LIcLr22PQ3h8DXi%2B3cHqWRSRg%3D%3D"}],"group":"cf-nel","max_age":604800}
+<< NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+<< Vary: Accept-Encoding
+<< Server: cloudflare
+<< CF-RAY: 79a74404d9e23c01-BLR
+<< Content-Encoding: gzip
+Connection can be kept alive indefinitely
+Parsing response as: application/json; charset=utf-8
+ << "d0[\r][\n]"
+ << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3]m[0x8e][0xb1]j[0xc3]0[0x14]EE[0xbd]Y[0x15][0x1b]2j[0xea][0xdc]1[0x14]:[0x96]W[0xfb][0xda]QjK[0xca][0xd3][0xb3][0x13][0x8][0xfe][0xf7][0x92]R[0xda][0xa5][0xeb][0xe5][0x9c][0xc3][0xbd][0xa3][0x17][0x13][0x84];b[0x8f]p[0xf0][0xe0],qB[0xc0]Y[0x12][0xad][0xb9]RV[0xea][0xb3][0xf2][0xa2][0xac]ML[0xf0][0x18][0xa2]V{O2[0x13][0x1]/[0xf][\n]"
+ << "[0x1e][0x93][0xfc]mo[0xdf][0xe]<d[0x15][0x13]E[0xc0][0xc9][0xac][0xd4][0xd0][0xb6][0xbf][0x99]6[0xce]c;H[0xc7][0xda][0x1e][0xf6]q[0x96][0x91][0xcd][0xb9][0x8c][0xd8]<[0xea]RJV{[0x1c]Zt[0xfa][0xd7][0xdd][0xfd]0[0xfb][0x13][0xa5][0x8f]i[0x84][0x87][0xf1]f[0x8]x[0xcd][0xee][0x93],[0xee][0xc8][0xcb][0x91][0xd5][\r]Jz[0xd7][0xe5]d[0x1a]?[0x16][0x8b]9Ug[0xf9]*[0xda]WW[0xa9]+[0xd5]u[0xb9]Zu[0xa2]tR[0x8a][0xb2][0x8b]b[0xec][0x9f][0xb0]m_[0xb][0x8c][0xc5][0xb5][0x18][0x1][0x0][0x0]"
+ << "[\r][\n]"
+ << "0[\r][\n]"
+ << "[\r][\n]"
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@76437e9b
+Connection can be kept alive indefinitely
+Get connection for route {s}->https://reqres.in:443
+Connecting to reqres.in:443
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: GET /api/users/2 HTTP/1.1
+ >> "GET /api/users/2 HTTP/1.1[\r][\n]"
+ >> "Accept: */*[\r][\n]"
+ >> "Host: reqres.in[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> GET /api/users/2 HTTP/1.1
+>> Accept: */*
+>> Host: reqres.in
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+>> Accept-Encoding: gzip,deflate
+ << "HTTP/1.1 200 OK[\r][\n]"
+ << "Date: Thu, 16 Feb 2023 15:20:09 GMT[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Transfer-Encoding: chunked[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Access-Control-Allow-Origin: *[\r][\n]"
+ << "Etag: W/"118-pbdwwFo9SKNhD3Lx5iHJyngpq00"[\r][\n]"
+ << "Via: 1.1 vegur[\r][\n]"
+ << "Cache-Control: max-age=14400[\r][\n]"
+ << "CF-Cache-Status: HIT[\r][\n]"
+ << "Age: 2385[\r][\n]"
+ << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=kAzfqHXeJumOYM3kgsMRdZ8e3X%2FmAYAUYbvFNAHt78oIH8EHErFCF9nZOlDazNPmPyk3z2Zo1UG1nx2ybDid04okigy5phsgYRz38O7qf5YcJHbxY3zfJ%2F1Xyg%3D%3D"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+ << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]"
+ << "Vary: Accept-Encoding[\r][\n]"
+ << "Server: cloudflare[\r][\n]"
+ << "CF-RAY: 79a7440579e883f3-BLR[\r][\n]"
+ << "Content-Encoding: gzip[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 200 OK
+<< HTTP/1.1 200 OK
+<< Date: Thu, 16 Feb 2023 15:20:09 GMT
+<< Content-Type: application/json; charset=utf-8
+<< Transfer-Encoding: chunked
+<< Connection: keep-alive
+<< X-Powered-By: Express
+<< Access-Control-Allow-Origin: *
+<< Etag: W/"118-pbdwwFo9SKNhD3Lx5iHJyngpq00"
+<< Via: 1.1 vegur
+<< Cache-Control: max-age=14400
+<< CF-Cache-Status: HIT
+<< Age: 2385
+<< Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=kAzfqHXeJumOYM3kgsMRdZ8e3X%2FmAYAUYbvFNAHt78oIH8EHErFCF9nZOlDazNPmPyk3z2Zo1UG1nx2ybDid04okigy5phsgYRz38O7qf5YcJHbxY3zfJ%2F1Xyg%3D%3D"}],"group":"cf-nel","max_age":604800}
+<< NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+<< Vary: Accept-Encoding
+<< Server: cloudflare
+<< CF-RAY: 79a7440579e883f3-BLR
+<< Content-Encoding: gzip
+Connection can be kept alive indefinitely
+Parsing response as: application/json; charset=utf-8
+ << "d0[\r][\n]"
+ << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3]m[0x8e][0xb1]j[0xc3]0[0x14]EE[0xbd]Y[0x15][0x1b]2j[0xea][0xdc]1[0x14]:[0x96]W[0xfb][0xda]QjK[0xca][0xd3][0xb3][0x13][0x8][0xfe][0xf7][0x92]R[0xda][0xa5][0xeb][0xe5][0x9c][0xc3][0xbd][0xa3][0x17][0x13][0x84];b[0x8f]p[0xf0][0xe0],qB[0xc0]Y[0x12][0xad][0xb9]RV[0xea][0xb3][0xf2][0xa2][0xac]ML[0xf0][0x18][0xa2]V{O2[0x13][0x1]/[0xf][\n]"
+ << "[0x1e][0x93][0xfc]mo[0xdf][0xe]<d[0x15][0x13]E[0xc0][0xc9][0xac][0xd4][0xd0][0xb6][0xbf][0x99]6[0xce]c;H[0xc7][0xda][0x1e][0xf6]q[0x96][0x91][0xcd][0xb9][0x8c][0xd8]<[0xea]RJV{[0x1c]Zt[0xfa][0xd7][0xdd][0xfd]0[0xfb][0x13][0xa5][0x8f]i[0x84][0x87][0xf1]f[0x8]x[0xcd][0xee][0x93],[0xee][0xc8][0xcb][0x91][0xd5][\r]Jz[0xd7][0xe5]d[0x1a]?[0x16][0x8b]9Ug[0xf9]*[0xda]WW[0xa9]+[0xd5]u[0xb9]Zu[0xa2]tR[0x8a][0xb2][0x8b]b[0xec][0x9f][0xb0]m_[0xb][0x8c][0xc5][0xb5][0x18][0x1][0x0][0x0]"
+ << "[\r][\n]"
+ << "0[\r][\n]"
+ << "[\r][\n]"
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@5f08fe00
+Connection can be kept alive indefinitely
+Get connection for route {s}->https://reqres.in:443
+Connecting to reqres.in:443
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: GET /api/users/3 HTTP/1.1
+ >> "GET /api/users/3 HTTP/1.1[\r][\n]"
+ >> "Accept: */*[\r][\n]"
+ >> "Host: reqres.in[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> GET /api/users/3 HTTP/1.1
+>> Accept: */*
+>> Host: reqres.in
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+>> Accept-Encoding: gzip,deflate
+ << "HTTP/1.1 200 OK[\r][\n]"
+ << "Date: Thu, 16 Feb 2023 15:20:10 GMT[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Transfer-Encoding: chunked[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Access-Control-Allow-Origin: *[\r][\n]"
+ << "Etag: W/"112-EeInfgHWtnxhYRnwgZUB667e024"[\r][\n]"
+ << "Via: 1.1 vegur[\r][\n]"
+ << "Cache-Control: max-age=14400[\r][\n]"
+ << "CF-Cache-Status: HIT[\r][\n]"
+ << "Age: 1546[\r][\n]"
+ << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=UGYXTrGlb7dCy8OOg8lgF%2FQ9rMTb23y4HqISqmRzP8al0PFEHjDNUn%2BEQVyUJ9a%2BaD6C81W3O87gOhMTXuEZ7ncemZ%2FKcKzskEi2kz%2BBBYLkFggkZA5PVB2doQ%3D%3D"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+ << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]"
+ << "Vary: Accept-Encoding[\r][\n]"
+ << "Server: cloudflare[\r][\n]"
+ << "CF-RAY: 79a744068e4783f5-BLR[\r][\n]"
+ << "Content-Encoding: gzip[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 200 OK
+<< HTTP/1.1 200 OK
+<< Date: Thu, 16 Feb 2023 15:20:10 GMT
+<< Content-Type: application/json; charset=utf-8
+<< Transfer-Encoding: chunked
+<< Connection: keep-alive
+<< X-Powered-By: Express
+<< Access-Control-Allow-Origin: *
+<< Etag: W/"112-EeInfgHWtnxhYRnwgZUB667e024"
+<< Via: 1.1 vegur
+<< Cache-Control: max-age=14400
+<< CF-Cache-Status: HIT
+<< Age: 1546
+<< Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=UGYXTrGlb7dCy8OOg8lgF%2FQ9rMTb23y4HqISqmRzP8al0PFEHjDNUn%2BEQVyUJ9a%2BaD6C81W3O87gOhMTXuEZ7ncemZ%2FKcKzskEi2kz%2BBBYLkFggkZA5PVB2doQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+<< NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+<< Vary: Accept-Encoding
+<< Server: cloudflare
+<< CF-RAY: 79a744068e4783f5-BLR
+<< Content-Encoding: gzip
+Connection can be kept alive indefinitely
+Parsing response as: application/json; charset=utf-8
+ << "d0[\r][\n]"
+ << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3]m[0x8e][0xbd]N[0x3]1[0x10][0x84]_[0xc5][0xc][0xad]s.[0xd2][0xb9][0xa2][0xe1][0x5]"$J[0xb4][0x9c][0xf7].[0x86][0xf3]Ov[0xf7][0x12][0xa4][0xe8][0xde]=[\n]"
+ << "B[0xd0][0xd0][0x8e][0xe6][0x9b]o[0xae]Hd[0x84]xEN[0x88]{[0xf].[0x94][0x17]Dp)4\Z[0x9d][0x9f][0x84]O[0xc2]:[0xe4][\n]"
+ << "[0x8f])[0x8b][0xda][[0xa5][0xc2][0x88]x.[0x85][0xe0][0xb1][0xd0]_[0xf4][0xda][0xea][0xc][0xf]:[0x93][0x91] [0xe2]h[0xd6]5[0x86][0xf0][0xbb][0x11]r[0x99][0xc3]D#k[0xd8][0xef]r[0xa1][0x99][0x87][0x8f]>c[0xf3][0xd0][0xb5][0xf7]&v[0xbf][0xb2][0xca][0xf2]/[0xfb][0xf8][0xd3][0xd9][0x1d][0x99]R[0xfe]6[0x19][0x19]"^[0x9a][0xfb]d[0xee][0xee][0xc0][0xa7][0x3][0xab][0x9b][0x84][0xd9][0xbb][0xb1]U[0x93][0xfc][0xbe]ZnU[0x9d][0xb5][0xb]IR[0xa7],g[0x16]765u$[0xec][0xa8]w[0xe1]1[0x93]qz[0xc0][0xb6][0xdd][0x0]\[0xda]2[0xc3][0x12][0x1][0x0][0x0]"
+ << "[\r][\n]"
+ << "0[\r][\n]"
+ << "[\r][\n]"
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@6e24ce51
+Connection can be kept alive indefinitely
+Get connection for route {s}->https://reqres.in:443
+Connecting to reqres.in:443
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: GET /api/users/3 HTTP/1.1
+ >> "GET /api/users/3 HTTP/1.1[\r][\n]"
+ >> "Accept: */*[\r][\n]"
+ >> "Host: reqres.in[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> GET /api/users/3 HTTP/1.1
+>> Accept: */*
+>> Host: reqres.in
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+>> Accept-Encoding: gzip,deflate
+ << "HTTP/1.1 200 OK[\r][\n]"
+ << "Date: Thu, 16 Feb 2023 15:20:10 GMT[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Transfer-Encoding: chunked[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Access-Control-Allow-Origin: *[\r][\n]"
+ << "Etag: W/"112-EeInfgHWtnxhYRnwgZUB667e024"[\r][\n]"
+ << "Via: 1.1 vegur[\r][\n]"
+ << "Cache-Control: max-age=14400[\r][\n]"
+ << "CF-Cache-Status: HIT[\r][\n]"
+ << "Age: 1546[\r][\n]"
+ << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=%2FWTZ4AsFwaZDtkUoh7JQv39N9sj%2Bshe0YxgNQAsVXfnckLeAap5rCzCzvnFoNq%2BOmhmOH%2FyOdhdX6Y1jXVJepcP1EoUz060jr7Mxx0L%2F8npzxo1wOXawxpovcw%3D%3D"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+ << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]"
+ << "Vary: Accept-Encoding[\r][\n]"
+ << "Server: cloudflare[\r][\n]"
+ << "CF-RAY: 79a74406f81c3c00-BLR[\r][\n]"
+ << "Content-Encoding: gzip[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 200 OK
+<< HTTP/1.1 200 OK
+<< Date: Thu, 16 Feb 2023 15:20:10 GMT
+<< Content-Type: application/json; charset=utf-8
+<< Transfer-Encoding: chunked
+<< Connection: keep-alive
+<< X-Powered-By: Express
+<< Access-Control-Allow-Origin: *
+<< Etag: W/"112-EeInfgHWtnxhYRnwgZUB667e024"
+<< Via: 1.1 vegur
+<< Cache-Control: max-age=14400
+<< CF-Cache-Status: HIT
+<< Age: 1546
+<< Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=%2FWTZ4AsFwaZDtkUoh7JQv39N9sj%2Bshe0YxgNQAsVXfnckLeAap5rCzCzvnFoNq%2BOmhmOH%2FyOdhdX6Y1jXVJepcP1EoUz060jr7Mxx0L%2F8npzxo1wOXawxpovcw%3D%3D"}],"group":"cf-nel","max_age":604800}
+<< NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+<< Vary: Accept-Encoding
+<< Server: cloudflare
+<< CF-RAY: 79a74406f81c3c00-BLR
+<< Content-Encoding: gzip
+Connection can be kept alive indefinitely
+Parsing response as: application/json; charset=utf-8
+ << "d0[\r][\n]"
+ << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3]m[0x8e][0xbd]N[0x3]1[0x10][0x84]_[0xc5][0xc][0xad]s.[0xd2][0xb9][0xa2][0xe1][0x5]"$J[0xb4][0x9c][0xf7].[0x86][0xf3]Ov[0xf7][0x12][0xa4][0xe8][0xde]=[\n]"
+ << "B[0xd0][0xd0][0x8e][0xe6][0x9b]o[0xae]Hd[0x84]xEN[0x88]{[0xf].[0x94][0x17]Dp)4\Z[0x9d][0x9f][0x84]O[0xc2]:[0xe4][\n]"
+ << "[0x8f])[0x8b][0xda][[0xa5][0xc2][0x88]x.[0x85][0xe0][0xb1][0xd0]_[0xf4][0xda][0xea][0xc][0xf]:[0x93][0x91] [0xe2]h[0xd6]5[0x86][0xf0][0xbb][0x11]r[0x99][0xc3]D#k[0xd8][0xef]r[0xa1][0x99][0x87][0x8f]>c[0xf3][0xd0][0xb5][0xf7]&v[0xbf][0xb2][0xca][0xf2]/[0xfb][0xf8][0xd3][0xd9][0x1d][0x99]R[0xfe]6[0x19][0x19]"^[0x9a][0xfb]d[0xee][0xee][0xc0][0xa7][0x3][0xab][0x9b][0x84][0xd9][0xbb][0xb1]U[0x93][0xfc][0xbe]ZnU[0x9d][0xb5][0xb]IR[0xa7],g[0x16]765u$[0xec][0xa8]w[0xe1]1[0x93]qz[0xc0][0xb6][0xdd][0x0]\[0xda]2[0xc3][0x12][0x1][0x0][0x0]"
+ << "[\r][\n]"
+ << "0[\r][\n]"
+ << "[\r][\n]"
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@5b29ab61
+Connection can be kept alive indefinitely
+Get connection for route {s}->https://reqres.in:443
+Connecting to reqres.in:443
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: GET /api/users/3 HTTP/1.1
+ >> "GET /api/users/3 HTTP/1.1[\r][\n]"
+ >> "Accept: */*[\r][\n]"
+ >> "Host: reqres.in[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> GET /api/users/3 HTTP/1.1
+>> Accept: */*
+>> Host: reqres.in
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+>> Accept-Encoding: gzip,deflate
+ << "HTTP/1.1 200 OK[\r][\n]"
+ << "Date: Thu, 16 Feb 2023 15:20:10 GMT[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Transfer-Encoding: chunked[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Access-Control-Allow-Origin: *[\r][\n]"
+ << "Etag: W/"112-EeInfgHWtnxhYRnwgZUB667e024"[\r][\n]"
+ << "Via: 1.1 vegur[\r][\n]"
+ << "Cache-Control: max-age=14400[\r][\n]"
+ << "CF-Cache-Status: HIT[\r][\n]"
+ << "Age: 1546[\r][\n]"
+ << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=WIkiXxzLPjGH2GMF2HeL8tdqOAzU85ywz%2FwIIjfdItk8gPptkBHg7rzaxsf1fSlqTEQ1VqoSN9Kf0stCqWpppFG5RdtIQQ%2BpCcf4HgAj%2BXcxM1fT3c9L34Lg1g%3D%3D"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+ << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]"
+ << "Vary: Accept-Encoding[\r][\n]"
+ << "Server: cloudflare[\r][\n]"
+ << "CF-RAY: 79a744077cde3c01-BLR[\r][\n]"
+ << "Content-Encoding: gzip[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 200 OK
+<< HTTP/1.1 200 OK
+<< Date: Thu, 16 Feb 2023 15:20:10 GMT
+<< Content-Type: application/json; charset=utf-8
+<< Transfer-Encoding: chunked
+<< Connection: keep-alive
+<< X-Powered-By: Express
+<< Access-Control-Allow-Origin: *
+<< Etag: W/"112-EeInfgHWtnxhYRnwgZUB667e024"
+<< Via: 1.1 vegur
+<< Cache-Control: max-age=14400
+<< CF-Cache-Status: HIT
+<< Age: 1546
+<< Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=WIkiXxzLPjGH2GMF2HeL8tdqOAzU85ywz%2FwIIjfdItk8gPptkBHg7rzaxsf1fSlqTEQ1VqoSN9Kf0stCqWpppFG5RdtIQQ%2BpCcf4HgAj%2BXcxM1fT3c9L34Lg1g%3D%3D"}],"group":"cf-nel","max_age":604800}
+<< NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+<< Vary: Accept-Encoding
+<< Server: cloudflare
+<< CF-RAY: 79a744077cde3c01-BLR
+<< Content-Encoding: gzip
+Connection can be kept alive indefinitely
+Parsing response as: application/json; charset=utf-8
+ << "d0[\r][\n]"
+ << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3]m[0x8e][0xbd]N[0x3]1[0x10][0x84]_[0xc5][0xc][0xad]s.[0xd2][0xb9][0xa2][0xe1][0x5]"$J[0xb4][0x9c][0xf7].[0x86][0xf3]Ov[0xf7][0x12][0xa4][0xe8][0xde]=[\n]"
+ << "B[0xd0][0xd0][0x8e][0xe6][0x9b]o[0xae]Hd[0x84]xEN[0x88]{[0xf].[0x94][0x17]Dp)4\Z[0x9d][0x9f][0x84]O[0xc2]:[0xe4][\n]"
+ << "[0x8f])[0x8b][0xda][[0xa5][0xc2][0x88]x.[0x85][0xe0][0xb1][0xd0]_[0xf4][0xda][0xea][0xc][0xf]:[0x93][0x91] [0xe2]h[0xd6]5[0x86][0xf0][0xbb][0x11]r[0x99][0xc3]D#k[0xd8][0xef]r[0xa1][0x99][0x87][0x8f]>c[0xf3][0xd0][0xb5][0xf7]&v[0xbf][0xb2][0xca][0xf2]/[0xfb][0xf8][0xd3][0xd9][0x1d][0x99]R[0xfe]6[0x19][0x19]"^[0x9a][0xfb]d[0xee][0xee][0xc0][0xa7][0x3][0xab][0x9b][0x84][0xd9][0xbb][0xb1]U[0x93][0xfc][0xbe]ZnU[0x9d][0xb5][0xb]IR[0xa7],g[0x16]765u$[0xec][0xa8]w[0xe1]1[0x93]qz[0xc0][0xb6][0xdd][0x0]\[0xda]2[0xc3][0x12][0x1][0x0][0x0]"
+ << "[\r][\n]"
+ << "0[\r][\n]"
+ << "[\r][\n]"
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@2c1d57bc
+Connection can be kept alive indefinitely
+Connection 0.0.0.0:60802<->172.67.73.173:443 closed
+Connection 0.0.0.0:60803<->172.67.73.173:443 closed
+Connection 0.0.0.0:60799<->172.67.73.173:443 closed
+Connection 0.0.0.0:60800<->172.67.73.173:443 closed
+Connection 0.0.0.0:60801<->172.67.73.173:443 closed
+Connection 0.0.0.0:60796<->172.67.73.173:443 closed
+Connection 0.0.0.0:60797<->172.67.73.173:443 closed
+Connection 0.0.0.0:60798<->172.67.73.173:443 closed
+Get connection for route {s}->https://reqres.in:443
+Connecting to reqres.in:443
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: GET /api/users/4 HTTP/1.1
+ >> "GET /api/users/4 HTTP/1.1[\r][\n]"
+ >> "Accept: */*[\r][\n]"
+ >> "Host: reqres.in[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> GET /api/users/4 HTTP/1.1
+>> Accept: */*
+>> Host: reqres.in
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+>> Accept-Encoding: gzip,deflate
+ << "HTTP/1.1 200 OK[\r][\n]"
+ << "Date: Thu, 16 Feb 2023 15:20:10 GMT[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Transfer-Encoding: chunked[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Access-Control-Allow-Origin: *[\r][\n]"
+ << "Etag: W/"110-Xdg3LtI+q2zMxihHlfeIZQo/bvY"[\r][\n]"
+ << "Via: 1.1 vegur[\r][\n]"
+ << "Cache-Control: max-age=14400[\r][\n]"
+ << "CF-Cache-Status: HIT[\r][\n]"
+ << "Age: 1546[\r][\n]"
+ << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=MG8L3fIGmbvXZRduNslJrhHp1LgQZOtmFH%2FppVXtuqtyqke%2BLzH6XyZI%2BsjciQnLx4JOijDyZGg33%2Bc8HAdUTzok5dxhR86fFCsE3TgXGQPkzz8iEG47F7ZvmQ%3D%3D"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+ << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]"
+ << "Vary: Accept-Encoding[\r][\n]"
+ << "Server: cloudflare[\r][\n]"
+ << "CF-RAY: 79a744083cca83f3-BLR[\r][\n]"
+ << "Content-Encoding: gzip[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 200 OK
+<< HTTP/1.1 200 OK
+<< Date: Thu, 16 Feb 2023 15:20:10 GMT
+<< Content-Type: application/json; charset=utf-8
+<< Transfer-Encoding: chunked
+<< Connection: keep-alive
+<< X-Powered-By: Express
+<< Access-Control-Allow-Origin: *
+<< Etag: W/"110-Xdg3LtI+q2zMxihHlfeIZQo/bvY"
+<< Via: 1.1 vegur
+<< Cache-Control: max-age=14400
+<< CF-Cache-Status: HIT
+<< Age: 1546
+<< Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=MG8L3fIGmbvXZRduNslJrhHp1LgQZOtmFH%2FppVXtuqtyqke%2BLzH6XyZI%2BsjciQnLx4JOijDyZGg33%2Bc8HAdUTzok5dxhR86fFCsE3TgXGQPkzz8iEG47F7ZvmQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+<< NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+<< Vary: Accept-Encoding
+<< Server: cloudflare
+<< CF-RAY: 79a744083cca83f3-BLR
+<< Content-Encoding: gzip
+Connection can be kept alive indefinitely
+Parsing response as: application/json; charset=utf-8
+ << "cd[\r][\n]"
+ << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3]m[0x8e][0xb1]N[0xc4]0[0x10]D[0xc5][0xc][0xad]/i[0xae]rE[0x83]D}[0xa2]GK2I[0xc]I[0xec][0xdb][0xdd][0x4][0xa4]S[0xfe][0x1d]!!hhG[0xef]=[0xcd][\r][0xbd][0xb8] [0xdd][0x90]{[0xa4]s[0x4][0x17][0xc9]3[0x12][0xb8][0xb3][0x99][0xca][0xec][0xf][0xca][0xab][0xd2][0x9a][0xbc]"b[0xc8]j[0xfe][0xb2][0xca]B$<[0xee]D[0xc4],[0xcb]S[0x99][0x1d][0x11][0xb2][0x8b][0x8b]"ar[0xaf][0x96][0xda][0xf6]7[0xd1][0xe6]el[0x7][0xe9]h[0xed][0xf9][0x94][0x17][0x19][0xd9][0xbc][0xd5][0x11]G[0x84]m[0xb5][0x16][0xf5][0xef]#[0x9b][0xce][0xff][0xba][0xf7]?[0xcc]i[0xa2][0xf4]y[0x1d][0x11][0xe1][0xfc]t$<[0x97][0xf0]N[0xd6]p[0xe1][0xf5]B[0xb][0x83][0x92]1teu[0xcd][0xaf][0x9b][0xe7][0xb2]Z[0xf0][0xf2]![0xda][0[0xea]N[\r]]1[0xb7] [0xca] [0xb5]*[0xbb],[0xce][0xfe][0xe][0xc7][0xf1][0x5]0[0x88][0xaf][0x98][0x10][0x1][0x0][0x0]"
+ << "[\r][\n]"
+ << "0[\r][\n]"
+ << "[\r][\n]"
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@7558633
+Connection can be kept alive indefinitely
+Get connection for route {s}->https://reqres.in:443
+Connecting to reqres.in:443
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: GET /api/users/4 HTTP/1.1
+ >> "GET /api/users/4 HTTP/1.1[\r][\n]"
+ >> "Accept: */*[\r][\n]"
+ >> "Host: reqres.in[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> GET /api/users/4 HTTP/1.1
+>> Accept: */*
+>> Host: reqres.in
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+>> Accept-Encoding: gzip,deflate
+ << "HTTP/1.1 200 OK[\r][\n]"
+ << "Date: Thu, 16 Feb 2023 15:20:10 GMT[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Transfer-Encoding: chunked[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Access-Control-Allow-Origin: *[\r][\n]"
+ << "Etag: W/"110-Xdg3LtI+q2zMxihHlfeIZQo/bvY"[\r][\n]"
+ << "Via: 1.1 vegur[\r][\n]"
+ << "Cache-Control: max-age=14400[\r][\n]"
+ << "CF-Cache-Status: HIT[\r][\n]"
+ << "Age: 1546[\r][\n]"
+ << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=XgQIHk1C3pM%2FcEM%2BigyCH2B5cqhHPbHp2qUSsEESHYDgamqzhVzYR5pavVLHMasTHsMwSWvAQ8jK6nTaByTC%2BUNdwJLNqyNADqJEyqAzwBBSW8%2FQCYQdQ1NhfQ%3D%3D"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+ << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]"
+ << "Vary: Accept-Encoding[\r][\n]"
+ << "Server: cloudflare[\r][\n]"
+ << "CF-RAY: 79a74408a90c3c12-BLR[\r][\n]"
+ << "Content-Encoding: gzip[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 200 OK
+<< HTTP/1.1 200 OK
+<< Date: Thu, 16 Feb 2023 15:20:10 GMT
+<< Content-Type: application/json; charset=utf-8
+<< Transfer-Encoding: chunked
+<< Connection: keep-alive
+<< X-Powered-By: Express
+<< Access-Control-Allow-Origin: *
+<< Etag: W/"110-Xdg3LtI+q2zMxihHlfeIZQo/bvY"
+<< Via: 1.1 vegur
+<< Cache-Control: max-age=14400
+<< CF-Cache-Status: HIT
+<< Age: 1546
+<< Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=XgQIHk1C3pM%2FcEM%2BigyCH2B5cqhHPbHp2qUSsEESHYDgamqzhVzYR5pavVLHMasTHsMwSWvAQ8jK6nTaByTC%2BUNdwJLNqyNADqJEyqAzwBBSW8%2FQCYQdQ1NhfQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+<< NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+<< Vary: Accept-Encoding
+<< Server: cloudflare
+<< CF-RAY: 79a74408a90c3c12-BLR
+<< Content-Encoding: gzip
+Connection can be kept alive indefinitely
+Parsing response as: application/json; charset=utf-8
+ << "cd[\r][\n]"
+ << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3]m[0x8e][0xb1]N[0xc4]0[0x10]D[0xc5][0xc][0xad]/i[0xae]rE[0x83]D}[0xa2]GK2I[0xc]I[0xec][0xdb][0xdd][0x4][0xa4]S[0xfe][0x1d]!!hhG[0xef]=[0xcd][\r][0xbd][0xb8] [0xdd][0x90]{[0xa4]s[0x4][0x17][0xc9]3[0x12][0xb8][0xb3][0x99][0xca][0xec][0xf][0xca][0xab][0xd2][0x9a][0xbc]"b[0xc8]j[0xfe][0xb2][0xca]B$<[0xee]D[0xc4],[0xcb]S[0x99][0x1d][0x11][0xb2][0x8b][0x8b]"ar[0xaf][0x96][0xda][0xf6]7[0xd1][0xe6]el[0x7][0xe9]h[0xed][0xf9][0x94][0x17][0x19][0xd9][0xbc][0xd5][0x11]G[0x84]m[0xb5][0x16][0xf5][0xef]#[0x9b][0xce][0xff][0xba][0xf7]?[0xcc]i[0xa2][0xf4]y[0x1d][0x11][0xe1][0xfc]t$<[0x97][0xf0]N[0xd6]p[0xe1][0xf5]B[0xb][0x83][0x92]1teu[0xcd][0xaf][0x9b][0xe7][0xb2]Z[0xf0][0xf2]![0xda][0[0xea]N[\r]]1[0xb7] [0xca] [0xb5]*[0xbb],[0xce][0xfe][0xe][0xc7][0xf1][0x5]0[0x88][0xaf][0x98][0x10][0x1][0x0][0x0]"
+ << "[\r][\n]"
+ << "0[\r][\n]"
+ << "[\r][\n]"
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@21b51e59
+Connection can be kept alive indefinitely
+Get connection for route {s}->https://reqres.in:443
+Connecting to reqres.in:443
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: GET /api/users/4 HTTP/1.1
+ >> "GET /api/users/4 HTTP/1.1[\r][\n]"
+ >> "Accept: */*[\r][\n]"
+ >> "Host: reqres.in[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> GET /api/users/4 HTTP/1.1
+>> Accept: */*
+>> Host: reqres.in
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+>> Accept-Encoding: gzip,deflate
+ << "HTTP/1.1 200 OK[\r][\n]"
+ << "Date: Thu, 16 Feb 2023 15:20:10 GMT[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Transfer-Encoding: chunked[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Access-Control-Allow-Origin: *[\r][\n]"
+ << "Etag: W/"110-Xdg3LtI+q2zMxihHlfeIZQo/bvY"[\r][\n]"
+ << "Via: 1.1 vegur[\r][\n]"
+ << "Cache-Control: max-age=14400[\r][\n]"
+ << "CF-Cache-Status: HIT[\r][\n]"
+ << "Age: 1546[\r][\n]"
+ << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=EurUb0VcAF25GDUBKGWH%2BBHwaNL%2Bq4WLKLZXm%2BJcq5xyW29A3bwLkFZcT%2Fb15DqAU6cer6Ax540lV%2BBQyIl%2FOjoJvWmD%2BhScyCEb8yD5Y2QvTECpDKIegD8WVQ%3D%3D"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+ << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]"
+ << "Vary: Accept-Encoding[\r][\n]"
+ << "Server: cloudflare[\r][\n]"
+ << "CF-RAY: 79a744090d8b83f3-BLR[\r][\n]"
+ << "Content-Encoding: gzip[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 200 OK
+<< HTTP/1.1 200 OK
+<< Date: Thu, 16 Feb 2023 15:20:10 GMT
+<< Content-Type: application/json; charset=utf-8
+<< Transfer-Encoding: chunked
+<< Connection: keep-alive
+<< X-Powered-By: Express
+<< Access-Control-Allow-Origin: *
+<< Etag: W/"110-Xdg3LtI+q2zMxihHlfeIZQo/bvY"
+<< Via: 1.1 vegur
+<< Cache-Control: max-age=14400
+<< CF-Cache-Status: HIT
+<< Age: 1546
+<< Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=EurUb0VcAF25GDUBKGWH%2BBHwaNL%2Bq4WLKLZXm%2BJcq5xyW29A3bwLkFZcT%2Fb15DqAU6cer6Ax540lV%2BBQyIl%2FOjoJvWmD%2BhScyCEb8yD5Y2QvTECpDKIegD8WVQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+<< NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+<< Vary: Accept-Encoding
+<< Server: cloudflare
+<< CF-RAY: 79a744090d8b83f3-BLR
+<< Content-Encoding: gzip
+Connection can be kept alive indefinitely
+Parsing response as: application/json; charset=utf-8
+ << "cd[\r][\n]"
+ << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3]m[0x8e][0xb1]N[0xc4]0[0x10]D[0xc5][0xc][0xad]/i[0xae]rE[0x83]D}[0xa2]GK2I[0xc]I[0xec][0xdb][0xdd][0x4][0xa4]S[0xfe][0x1d]!!hhG[0xef]=[0xcd][\r][0xbd][0xb8] [0xdd][0x90]{[0xa4]s[0x4][0x17][0xc9]3[0x12][0xb8][0xb3][0x99][0xca][0xec][0xf][0xca][0xab][0xd2][0x9a][0xbc]"b[0xc8]j[0xfe][0xb2][0xca]B$<[0xee]D[0xc4],[0xcb]S[0x99][0x1d][0x11][0xb2][0x8b][0x8b]"ar[0xaf][0x96][0xda][0xf6]7[0xd1][0xe6]el[0x7][0xe9]h[0xed][0xf9][0x94][0x17][0x19][0xd9][0xbc][0xd5][0x11]G[0x84]m[0xb5][0x16][0xf5][0xef]#[0x9b][0xce][0xff][0xba][0xf7]?[0xcc]i[0xa2][0xf4]y[0x1d][0x11][0xe1][0xfc]t$<[0x97][0xf0]N[0xd6]p[0xe1][0xf5]B[0xb][0x83][0x92]1teu[0xcd][0xaf][0x9b][0xe7][0xb2]Z[0xf0][0xf2]![0xda][0[0xea]N[\r]]1[0xb7] [0xca] [0xb5]*[0xbb],[0xce][0xfe][0xe][0xc7][0xf1][0x5]0[0x88][0xaf][0x98][0x10][0x1][0x0][0x0]"
+ << "[\r][\n]"
+ << "0[\r][\n]"
+ << "[\r][\n]"
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@7eb27768
+Connection can be kept alive indefinitely
+Get connection for route {s}->https://reqres.in:443
+Connecting to reqres.in:443
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: GET /api/users/5 HTTP/1.1
+ >> "GET /api/users/5 HTTP/1.1[\r][\n]"
+ >> "Accept: */*[\r][\n]"
+ >> "Host: reqres.in[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> GET /api/users/5 HTTP/1.1
+>> Accept: */*
+>> Host: reqres.in
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+>> Accept-Encoding: gzip,deflate
+ << "HTTP/1.1 200 OK[\r][\n]"
+ << "Date: Thu, 16 Feb 2023 15:20:10 GMT[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Transfer-Encoding: chunked[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Access-Control-Allow-Origin: *[\r][\n]"
+ << "Etag: W/"11c-fbAvBCQSZgUU6dvLRqxYG0dwUTM"[\r][\n]"
+ << "Via: 1.1 vegur[\r][\n]"
+ << "Cache-Control: max-age=14400[\r][\n]"
+ << "CF-Cache-Status: HIT[\r][\n]"
+ << "Age: 1890[\r][\n]"
+ << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Lndf2WSXER%2BnDvR4Y40I9lWld6l0RaUKLpia9Ak54LoM1Jz%2BqpglsmNUQ5459Jny4VYpHZHI1Mbwh2TA2PSF78QEGQBWAImjvRJSsBW2pvwa3WgWpt7g6EA7gA%3D%3D"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+ << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]"
+ << "Vary: Accept-Encoding[\r][\n]"
+ << "Server: cloudflare[\r][\n]"
+ << "CF-RAY: 79a74409c9073c13-BLR[\r][\n]"
+ << "Content-Encoding: gzip[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 200 OK
+<< HTTP/1.1 200 OK
+<< Date: Thu, 16 Feb 2023 15:20:10 GMT
+<< Content-Type: application/json; charset=utf-8
+<< Transfer-Encoding: chunked
+<< Connection: keep-alive
+<< X-Powered-By: Express
+<< Access-Control-Allow-Origin: *
+<< Etag: W/"11c-fbAvBCQSZgUU6dvLRqxYG0dwUTM"
+<< Via: 1.1 vegur
+<< Cache-Control: max-age=14400
+<< CF-Cache-Status: HIT
+<< Age: 1890
+<< Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Lndf2WSXER%2BnDvR4Y40I9lWld6l0RaUKLpia9Ak54LoM1Jz%2BqpglsmNUQ5459Jny4VYpHZHI1Mbwh2TA2PSF78QEGQBWAImjvRJSsBW2pvwa3WgWpt7g6EA7gA%3D%3D"}],"group":"cf-nel","max_age":604800}
+<< NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+<< Vary: Accept-Encoding
+<< Server: cloudflare
+<< CF-RAY: 79a74409c9073c13-BLR
+<< Content-Encoding: gzip
+Connection can be kept alive indefinitely
+Parsing response as: application/json; charset=utf-8
+ << "d2[\r][\n]"
+ << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3]m[0x8e][0xbb]N[0xc4]0[0x10]E[0xc5]\ZoRm[0xe3][\n]"
+ << "[0x89][0x9a]fE[0x8f][0x86]x[0x92][0xc][0xc4][0xb1]wf[0xb2] [0xad][0xf2][0xef][0x88][0x87][0xa0][0xa1][0xbd]:[0xe7][0xe8]^[0x91][0xc9][0x9][0xe9][\n]"
+ << "[0xc9]H[0xc7][0x8].$[0xb][0x12][0x86][0x99]ta[0xeb]JU[0x15][0xbb]S>+['+"FQ[0xf3][0xa7][0x95][\n]"
+ << "#[0xe1][0xfe][0x9b]C[0xc4]B[0xeb][0xc3][0x97][0x85][0x8][0xba][0x90][0x93]"avo[0x96][0xfa][0xfe]7[0xd4]K[0x99][0xfa][0x91][0x6][0xb6][0xfe]x[0x90]B[0x13]w/m[0xc2][0x1e]a[kU[0xfd][0xf3][0xd4][0xa6][0xcb][0xbf][0xee][0xed][0xf]s[0x98][0x99][0xb2][0xac][0x13]"[0x9c][0xdf][0x1d][0x9][0x8f]5[0xbc]2[0xb7]p[0xe2][0xf3][0x89]-[0x8c][0xca][0x1c][0xc3]PWWy[0xde]\[0xea]j[0xc1][0xeb][0x1b]i[0xb6]`[0xac][0x17][0xd6]0Ts[0xb][0xa4][0x1c][0xa8]5[0xe5]A[0xc8]9[0xdf]`[0xdf]?[0x0][0xba]y[0x8a]:[0x1c][0x1][0x0][0x0]"
+ << "[\r][\n]"
+ << "0[\r][\n]"
+ << "[\r][\n]"
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@5520f675
+Connection can be kept alive indefinitely
+Get connection for route {s}->https://reqres.in:443
+Connecting to reqres.in:443
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: GET /api/users/5 HTTP/1.1
+ >> "GET /api/users/5 HTTP/1.1[\r][\n]"
+ >> "Accept: */*[\r][\n]"
+ >> "Host: reqres.in[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> GET /api/users/5 HTTP/1.1
+>> Accept: */*
+>> Host: reqres.in
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+>> Accept-Encoding: gzip,deflate
+ << "HTTP/1.1 200 OK[\r][\n]"
+ << "Date: Thu, 16 Feb 2023 15:20:10 GMT[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Transfer-Encoding: chunked[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Access-Control-Allow-Origin: *[\r][\n]"
+ << "Etag: W/"11c-fbAvBCQSZgUU6dvLRqxYG0dwUTM"[\r][\n]"
+ << "Via: 1.1 vegur[\r][\n]"
+ << "Cache-Control: max-age=14400[\r][\n]"
+ << "CF-Cache-Status: HIT[\r][\n]"
+ << "Age: 1890[\r][\n]"
+ << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=sQ5QfCzSSgOoBbRl6QliHobGptSr4E8qWYaK9CDsO4qVLf2mK05Vk%2FuxPi%2F9dST%2By6l1SKo10rJ2UV0e9bzWAjGcTd1LuCToIo677TMUyINB6GG3uZwthXuUmQ%3D%3D"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+ << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]"
+ << "Vary: Accept-Encoding[\r][\n]"
+ << "Server: cloudflare[\r][\n]"
+ << "CF-RAY: 79a7440a2e8483f3-BLR[\r][\n]"
+ << "Content-Encoding: gzip[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 200 OK
+<< HTTP/1.1 200 OK
+<< Date: Thu, 16 Feb 2023 15:20:10 GMT
+<< Content-Type: application/json; charset=utf-8
+<< Transfer-Encoding: chunked
+<< Connection: keep-alive
+<< X-Powered-By: Express
+<< Access-Control-Allow-Origin: *
+<< Etag: W/"11c-fbAvBCQSZgUU6dvLRqxYG0dwUTM"
+<< Via: 1.1 vegur
+<< Cache-Control: max-age=14400
+<< CF-Cache-Status: HIT
+<< Age: 1890
+<< Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=sQ5QfCzSSgOoBbRl6QliHobGptSr4E8qWYaK9CDsO4qVLf2mK05Vk%2FuxPi%2F9dST%2By6l1SKo10rJ2UV0e9bzWAjGcTd1LuCToIo677TMUyINB6GG3uZwthXuUmQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+<< NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+<< Vary: Accept-Encoding
+<< Server: cloudflare
+<< CF-RAY: 79a7440a2e8483f3-BLR
+<< Content-Encoding: gzip
+Connection can be kept alive indefinitely
+Parsing response as: application/json; charset=utf-8
+ << "d2[\r][\n]"
+ << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3]m[0x8e][0xbb]N[0xc4]0[0x10]E[0xc5]\ZoRm[0xe3][\n]"
+ << "[0x89][0x9a]fE[0x8f][0x86]x[0x92][0xc][0xc4][0xb1]wf[0xb2] [0xad][0xf2][0xef][0x88][0x87][0xa0][0xa1][0xbd]:[0xe7][0xe8]^[0x91][0xc9][0x9][0xe9][\n]"
+ << "[0xc9]H[0xc7][0x8].$[0xb][0x12][0x86][0x99]ta[0xeb]JU[0x15][0xbb]S>+['+"FQ[0xf3][0xa7][0x95][\n]"
+ << "#[0xe1][0xfe][0x9b]C[0xc4]B[0xeb][0xc3][0x97][0x85][0x8][0xba][0x90][0x93]"avo[0x96][0xfa][0xfe]7[0xd4]K[0x99][0xfa][0x91][0x6][0xb6][0xfe]x[0x90]B[0x13]w/m[0xc2][0x1e]a[kU[0xfd][0xf3][0xd4][0xa6][0xcb][0xbf][0xee][0xed][0xf]s[0x98][0x99][0xb2][0xac][0x13]"[0x9c][0xdf][0x1d][0x9][0x8f]5[0xbc]2[0xb7]p[0xe2][0xf3][0x89]-[0x8c][0xca][0x1c][0xc3]PWWy[0xde]\[0xea]j[0xc1][0xeb][0x1b]i[0xb6]`[0xac][0x17][0xd6]0Ts[0xb][0xa4][0x1c][0xa8]5[0xe5]A[0xc8]9[0xdf]`[0xdf]?[0x0][0xba]y[0x8a]:[0x1c][0x1][0x0][0x0]"
+ << "[\r][\n]"
+ << "0[\r][\n]"
+ << "[\r][\n]"
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@38cfecf3
+Connection can be kept alive indefinitely
+Get connection for route {s}->https://reqres.in:443
+Connecting to reqres.in:443
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: GET /api/users/5 HTTP/1.1
+ >> "GET /api/users/5 HTTP/1.1[\r][\n]"
+ >> "Accept: */*[\r][\n]"
+ >> "Host: reqres.in[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> GET /api/users/5 HTTP/1.1
+>> Accept: */*
+>> Host: reqres.in
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+>> Accept-Encoding: gzip,deflate
+ << "HTTP/1.1 200 OK[\r][\n]"
+ << "Date: Thu, 16 Feb 2023 15:20:10 GMT[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Transfer-Encoding: chunked[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Access-Control-Allow-Origin: *[\r][\n]"
+ << "Etag: W/"11c-fbAvBCQSZgUU6dvLRqxYG0dwUTM"[\r][\n]"
+ << "Via: 1.1 vegur[\r][\n]"
+ << "Cache-Control: max-age=14400[\r][\n]"
+ << "CF-Cache-Status: HIT[\r][\n]"
+ << "Age: 1890[\r][\n]"
+ << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=cGkyTo8UFPdYf4ZPryQyv2DjY6%2F4ek6QAGNF2lqQHn4A9gHm2IiOgmnJg1ZE9mplJl0g16p6EoDlLI4oaagojwU6pMBrA8Aes5CEfrdoweN3lk3H%2B5EO8WSsVw%3D%3D"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+ << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]"
+ << "Vary: Accept-Encoding[\r][\n]"
+ << "Server: cloudflare[\r][\n]"
+ << "CF-RAY: 79a7440aa95a3c0d-BLR[\r][\n]"
+ << "Content-Encoding: gzip[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 200 OK
+<< HTTP/1.1 200 OK
+<< Date: Thu, 16 Feb 2023 15:20:10 GMT
+<< Content-Type: application/json; charset=utf-8
+<< Transfer-Encoding: chunked
+<< Connection: keep-alive
+<< X-Powered-By: Express
+<< Access-Control-Allow-Origin: *
+<< Etag: W/"11c-fbAvBCQSZgUU6dvLRqxYG0dwUTM"
+<< Via: 1.1 vegur
+<< Cache-Control: max-age=14400
+<< CF-Cache-Status: HIT
+<< Age: 1890
+<< Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=cGkyTo8UFPdYf4ZPryQyv2DjY6%2F4ek6QAGNF2lqQHn4A9gHm2IiOgmnJg1ZE9mplJl0g16p6EoDlLI4oaagojwU6pMBrA8Aes5CEfrdoweN3lk3H%2B5EO8WSsVw%3D%3D"}],"group":"cf-nel","max_age":604800}
+<< NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+<< Vary: Accept-Encoding
+<< Server: cloudflare
+<< CF-RAY: 79a7440aa95a3c0d-BLR
+<< Content-Encoding: gzip
+Connection can be kept alive indefinitely
+Parsing response as: application/json; charset=utf-8
+ << "d2[\r][\n]"
+ << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3]m[0x8e][0xbb]N[0xc4]0[0x10]E[0xc5]\ZoRm[0xe3][\n]"
+ << "[0x89][0x9a]fE[0x8f][0x86]x[0x92][0xc][0xc4][0xb1]wf[0xb2] [0xad][0xf2][0xef][0x88][0x87][0xa0][0xa1][0xbd]:[0xe7][0xe8]^[0x91][0xc9][0x9][0xe9][\n]"
+ << "[0xc9]H[0xc7][0x8].$[0xb][0x12][0x86][0x99]ta[0xeb]JU[0x15][0xbb]S>+['+"FQ[0xf3][0xa7][0x95][\n]"
+ << "#[0xe1][0xfe][0x9b]C[0xc4]B[0xeb][0xc3][0x97][0x85][0x8][0xba][0x90][0x93]"avo[0x96][0xfa][0xfe]7[0xd4]K[0x99][0xfa][0x91][0x6][0xb6][0xfe]x[0x90]B[0x13]w/m[0xc2][0x1e]a[kU[0xfd][0xf3][0xd4][0xa6][0xcb][0xbf][0xee][0xed][0xf]s[0x98][0x99][0xb2][0xac][0x13]"[0x9c][0xdf][0x1d][0x9][0x8f]5[0xbc]2[0xb7]p[0xe2][0xf3][0x89]-[0x8c][0xca][0x1c][0xc3]PWWy[0xde]\[0xea]j[0xc1][0xeb][0x1b]i[0xb6]`[0xac][0x17][0xd6]0Ts[0xb][0xa4][0x1c][0xa8]5[0xe5]A[0xc8]9[0xdf]`[0xdf]?[0x0][0xba]y[0x8a]:[0x1c][0x1][0x0][0x0]"
+ << "[\r][\n]"
+ << "0[\r][\n]"
+ << "[\r][\n]"
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@611c3eae
+Connection can be kept alive indefinitely
+Get connection for route {s}->https://reqres.in:443
+Connecting to reqres.in:443
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: GET /api/users/6 HTTP/1.1
+ >> "GET /api/users/6 HTTP/1.1[\r][\n]"
+ >> "Accept: */*[\r][\n]"
+ >> "Host: reqres.in[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> GET /api/users/6 HTTP/1.1
+>> Accept: */*
+>> Host: reqres.in
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+>> Accept-Encoding: gzip,deflate
+ << "HTTP/1.1 200 OK[\r][\n]"
+ << "Date: Thu, 16 Feb 2023 15:20:10 GMT[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Transfer-Encoding: chunked[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Access-Control-Allow-Origin: *[\r][\n]"
+ << "Etag: W/"118-we7xcJocGnljhK3IAnwbs1F3VcQ"[\r][\n]"
+ << "Via: 1.1 vegur[\r][\n]"
+ << "Cache-Control: max-age=14400[\r][\n]"
+ << "CF-Cache-Status: HIT[\r][\n]"
+ << "Age: 1544[\r][\n]"
+ << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=E9zV4XwN%2F%2Fug8cREqkbWlF12LHjhncLDLVtSjD6HbggZdsDF0L6NLRObTX%2FA9u8%2BCOa4LLTc8CKbWlOESUUnRArUbBS1qjOLOCFv8xwtNgwkZ3iWYqBEt1mtRw%3D%3D"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+ << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]"
+ << "Vary: Accept-Encoding[\r][\n]"
+ << "Server: cloudflare[\r][\n]"
+ << "CF-RAY: 79a7440b5b6d3c12-BLR[\r][\n]"
+ << "Content-Encoding: gzip[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 200 OK
+<< HTTP/1.1 200 OK
+<< Date: Thu, 16 Feb 2023 15:20:10 GMT
+<< Content-Type: application/json; charset=utf-8
+<< Transfer-Encoding: chunked
+<< Connection: keep-alive
+<< X-Powered-By: Express
+<< Access-Control-Allow-Origin: *
+<< Etag: W/"118-we7xcJocGnljhK3IAnwbs1F3VcQ"
+<< Via: 1.1 vegur
+<< Cache-Control: max-age=14400
+<< CF-Cache-Status: HIT
+<< Age: 1544
+<< Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=E9zV4XwN%2F%2Fug8cREqkbWlF12LHjhncLDLVtSjD6HbggZdsDF0L6NLRObTX%2FA9u8%2BCOa4LLTc8CKbWlOESUUnRArUbBS1qjOLOCFv8xwtNgwkZ3iWYqBEt1mtRw%3D%3D"}],"group":"cf-nel","max_age":604800}
+<< NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+<< Vary: Accept-Encoding
+<< Server: cloudflare
+<< CF-RAY: 79a7440b5b6d3c12-BLR
+<< Content-Encoding: gzip
+Connection can be kept alive indefinitely
+Parsing response as: application/json; charset=utf-8
+ << "ce[\r][\n]"
+ << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3]m[0x8e]AN[0xc3]0[0x10]E[0xaf]b~[0xb7]n[0xbc][0xeb][0xc2]+[0xce][0x10][0xb1]GSg[0x92][0x1a][0xe2][0xd8][0x9d][0x99][0x14][0xaa]*wGA[0x8]6l[0xbf][0xde][0xfb]z[0xf][0xc]d[0x84][0xf8]@[0x1e][0x10]O[0x1e]\([0xcf][0x88]0[0xa1][0xc4][0xf7]N[0xa8]T}[0x16][0xbe][\n]"
+ << "k[0x97][0x17]x[0x8c]Y[0xd4]^[0x17]*[0x8c][0x88][0x97]o[\n]"
+ << "[0x1e]3[0xfd][0x8d][0xfd][0xee][0xc0][0x83]nd$[0x88][0xb8][0x98]5[0x8d]![0xfc][0xde][0x84]\[0xa6]0Rb[\r][0xa7]c.4q[0xf7][0xd6]&l[0x1e][0xba][0xb6]V[0xc5][0xf6][0xa0]U[0xe6][0xdd][0xc3][0xf]s[0xbc]0[\r]y[0x99][0xe0]a[0xfc]i{Mu[0xef][0xcc][0xcd][0xf5]|[0xed]Y[0xdd]([0xcc][0xde][0xa5][0xba][0x98][0xe4][0xf3]j[0xb9].[0xea][0xac]~[0x90][0xc][0xea][0x94][0xe5][0xc6][0xe2]RUSG[0xc2][0x8e]Z[0x13]N[0x99][0x8c][0x87]'l[0xdb][0x17]8[0x87][0x83]j[0x18][0x1][0x0][0x0]"
+ << "[\r][\n]"
+ << "0[\r][\n]"
+ << "[\r][\n]"
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@36ad5f2a
+Connection can be kept alive indefinitely
+Get connection for route {s}->https://reqres.in:443
+Connecting to reqres.in:443
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: GET /api/users/6 HTTP/1.1
+ >> "GET /api/users/6 HTTP/1.1[\r][\n]"
+ >> "Accept: */*[\r][\n]"
+ >> "Host: reqres.in[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> GET /api/users/6 HTTP/1.1
+>> Accept: */*
+>> Host: reqres.in
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+>> Accept-Encoding: gzip,deflate
+ << "HTTP/1.1 200 OK[\r][\n]"
+ << "Date: Thu, 16 Feb 2023 15:20:10 GMT[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Transfer-Encoding: chunked[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Access-Control-Allow-Origin: *[\r][\n]"
+ << "Etag: W/"118-we7xcJocGnljhK3IAnwbs1F3VcQ"[\r][\n]"
+ << "Via: 1.1 vegur[\r][\n]"
+ << "Cache-Control: max-age=14400[\r][\n]"
+ << "CF-Cache-Status: HIT[\r][\n]"
+ << "Age: 1544[\r][\n]"
+ << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Js9QxSIhs9oZMRKiocYucinsDBL%2B%2BcHvLZ1FZZ%2BNTVWzOS%2FysZnWuq0S5uG6ohZsCDSxQzxi2wABBwKIIVe1jPNaRJyt8aI4fbJUUtNzyOD366075%2F5rc5%2F3gA%3D%3D"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+ << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]"
+ << "Vary: Accept-Encoding[\r][\n]"
+ << "Server: cloudflare[\r][\n]"
+ << "CF-RAY: 79a7440bba863c13-BLR[\r][\n]"
+ << "Content-Encoding: gzip[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 200 OK
+<< HTTP/1.1 200 OK
+<< Date: Thu, 16 Feb 2023 15:20:10 GMT
+<< Content-Type: application/json; charset=utf-8
+<< Transfer-Encoding: chunked
+<< Connection: keep-alive
+<< X-Powered-By: Express
+<< Access-Control-Allow-Origin: *
+<< Etag: W/"118-we7xcJocGnljhK3IAnwbs1F3VcQ"
+<< Via: 1.1 vegur
+<< Cache-Control: max-age=14400
+<< CF-Cache-Status: HIT
+<< Age: 1544
+<< Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Js9QxSIhs9oZMRKiocYucinsDBL%2B%2BcHvLZ1FZZ%2BNTVWzOS%2FysZnWuq0S5uG6ohZsCDSxQzxi2wABBwKIIVe1jPNaRJyt8aI4fbJUUtNzyOD366075%2F5rc5%2F3gA%3D%3D"}],"group":"cf-nel","max_age":604800}
+<< NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+<< Vary: Accept-Encoding
+<< Server: cloudflare
+<< CF-RAY: 79a7440bba863c13-BLR
+<< Content-Encoding: gzip
+Connection can be kept alive indefinitely
+Parsing response as: application/json; charset=utf-8
+ << "ce[\r][\n]"
+ << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3]m[0x8e]AN[0xc3]0[0x10]E[0xaf]b~[0xb7]n[0xbc][0xeb][0xc2]+[0xce][0x10][0xb1]GSg[0x92][0x1a][0xe2][0xd8][0x9d][0x99][0x14][0xaa]*wGA[0x8]6l[0xbf][0xde][0xfb]z[0xf][0xc]d[0x84][0xf8]@[0x1e][0x10]O[0x1e]\([0xcf][0x88]0[0xa1][0xc4][0xf7]N[0xa8]T}[0x16][0xbe][\n]"
+ << "k[0x97][0x17]x[0x8c]Y[0xd4]^[0x17]*[0x8c][0x88][0x97]o[\n]"
+ << "[0x1e]3[0xfd][0x8d][0xfd][0xee][0xc0][0x83]nd$[0x88][0xb8][0x98]5[0x8d]![0xfc][0xde][0x84]\[0xa6]0Rb[\r][0xa7]c.4q[0xf7][0xd6]&l[0x1e][0xba][0xb6]V[0xc5][0xf6][0xa0]U[0xe6][0xdd][0xc3][0xf]s[0xbc]0[\r]y[0x99][0xe0]a[0xfc]i{Mu[0xef][0xcc][0xcd][0xf5]|[0xed]Y[0xdd]([0xcc][0xde][0xa5][0xba][0x98][0xe4][0xf3]j[0xb9].[0xea][0xac]~[0x90][0xc][0xea][0x94][0xe5][0xc6][0xe2]RUSG[0xc2][0x8e]Z[0x13]N[0x99][0x8c][0x87]'l[0xdb][0x17]8[0x87][0x83]j[0x18][0x1][0x0][0x0]"
+ << "[\r][\n]"
+ << "0[\r][\n]"
+ << "[\r][\n]"
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@62735b13
+Connection can be kept alive indefinitely
+Get connection for route {s}->https://reqres.in:443
+Connecting to reqres.in:443
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: GET /api/users/6 HTTP/1.1
+ >> "GET /api/users/6 HTTP/1.1[\r][\n]"
+ >> "Accept: */*[\r][\n]"
+ >> "Host: reqres.in[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> GET /api/users/6 HTTP/1.1
+>> Accept: */*
+>> Host: reqres.in
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+>> Accept-Encoding: gzip,deflate
+ << "HTTP/1.1 200 OK[\r][\n]"
+ << "Date: Thu, 16 Feb 2023 15:20:10 GMT[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Transfer-Encoding: chunked[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Access-Control-Allow-Origin: *[\r][\n]"
+ << "Etag: W/"118-we7xcJocGnljhK3IAnwbs1F3VcQ"[\r][\n]"
+ << "Via: 1.1 vegur[\r][\n]"
+ << "Cache-Control: max-age=14400[\r][\n]"
+ << "CF-Cache-Status: HIT[\r][\n]"
+ << "Age: 1544[\r][\n]"
+ << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=BcVeH2GXmROj6Pck4Yk9GrkRvKBoD2ydTgThSJbgZJgkYunY%2FIn3nm%2BlY9s%2B%2F8fPqMoAHqSLGVkkW1IpOWy%2Btf%2BWfBm2LYR5s5qGIBX0jh9lkRO611g6mzlwtw%3D%3D"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+ << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]"
+ << "Vary: Accept-Encoding[\r][\n]"
+ << "Server: cloudflare[\r][\n]"
+ << "CF-RAY: 79a7440c2fb33c06-BLR[\r][\n]"
+ << "Content-Encoding: gzip[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 200 OK
+<< HTTP/1.1 200 OK
+<< Date: Thu, 16 Feb 2023 15:20:10 GMT
+<< Content-Type: application/json; charset=utf-8
+<< Transfer-Encoding: chunked
+<< Connection: keep-alive
+<< X-Powered-By: Express
+<< Access-Control-Allow-Origin: *
+<< Etag: W/"118-we7xcJocGnljhK3IAnwbs1F3VcQ"
+<< Via: 1.1 vegur
+<< Cache-Control: max-age=14400
+<< CF-Cache-Status: HIT
+<< Age: 1544
+<< Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=BcVeH2GXmROj6Pck4Yk9GrkRvKBoD2ydTgThSJbgZJgkYunY%2FIn3nm%2BlY9s%2B%2F8fPqMoAHqSLGVkkW1IpOWy%2Btf%2BWfBm2LYR5s5qGIBX0jh9lkRO611g6mzlwtw%3D%3D"}],"group":"cf-nel","max_age":604800}
+<< NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+<< Vary: Accept-Encoding
+<< Server: cloudflare
+<< CF-RAY: 79a7440c2fb33c06-BLR
+<< Content-Encoding: gzip
+Connection can be kept alive indefinitely
+Parsing response as: application/json; charset=utf-8
+ << "ce[\r][\n]"
+ << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3]m[0x8e]AN[0xc3]0[0x10]E[0xaf]b~[0xb7]n[0xbc][0xeb][0xc2]+[0xce][0x10][0xb1]GSg[0x92][0x1a][0xe2][0xd8][0x9d][0x99][0x14][0xaa]*wGA[0x8]6l[0xbf][0xde][0xfb]z[0xf][0xc]d[0x84][0xf8]@[0x1e][0x10]O[0x1e]\([0xcf][0x88]0[0xa1][0xc4][0xf7]N[0xa8]T}[0x16][0xbe][\n]"
+ << "k[0x97][0x17]x[0x8c]Y[0xd4]^[0x17]*[0x8c][0x88][0x97]o[\n]"
+ << "[0x1e]3[0xfd][0x8d][0xfd][0xee][0xc0][0x83]nd$[0x88][0xb8][0x98]5[0x8d]![0xfc][0xde][0x84]\[0xa6]0Rb[\r][0xa7]c.4q[0xf7][0xd6]&l[0x1e][0xba][0xb6]V[0xc5][0xf6][0xa0]U[0xe6][0xdd][0xc3][0xf]s[0xbc]0[\r]y[0x99][0xe0]a[0xfc]i{Mu[0xef][0xcc][0xcd][0xf5]|[0xed]Y[0xdd]([0xcc][0xde][0xa5][0xba][0x98][0xe4][0xf3]j[0xb9].[0xea][0xac]~[0x90][0xc][0xea][0x94][0xe5][0xc6][0xe2]RUSG[0xc2][0x8e]Z[0x13]N[0x99][0x8c][0x87]'l[0xdb][0x17]8[0x87][0x83]j[0x18][0x1][0x0][0x0]"
+ << "[\r][\n]"
+ << "0[\r][\n]"
+ << "[\r][\n]"
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@71b26880
+Connection can be kept alive indefinitely
+Connection 0.0.0.0:60813<->172.67.73.173:443 closed
+Connection 0.0.0.0:60812<->172.67.73.173:443 closed
+Connection 0.0.0.0:60807<->172.67.73.173:443 closed
+Connection 0.0.0.0:60806<->172.67.73.173:443 closed
+Connection 0.0.0.0:60805<->172.67.73.173:443 closed
+Connection 0.0.0.0:60811<->172.67.73.173:443 closed
+Connection 0.0.0.0:60810<->172.67.73.173:443 closed
+Connection 0.0.0.0:60809<->172.67.73.173:443 closed
+Connection 0.0.0.0:60808<->172.67.73.173:443 closed
+Test Login Passed
+Browser Closed
